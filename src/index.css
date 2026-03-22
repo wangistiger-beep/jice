@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fdfdfd;
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #000;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.brutal-card {
+  background: white;
+  border: 2px solid black;
+  box-shadow: 4px 4px 0px 0px #000000;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.brutal-card:hover {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.brutal-btn {
+  border: 2px solid black;
+  box-shadow: 4px 4px 0px 0px #000000;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.brutal-btn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.brutal-btn:active {
+  transform: translate(4px, 4px);
+  box-shadow: none;
+}
+
+.brutal-input {
+  border: 3px solid black;
+  box-shadow: 6px 6px 0px 0px #000000;
+  outline: none;
+  font-family: 'Space Mono', monospace;
+  transition: box-shadow 0.1s ease;
+}
+
+.brutal-input:focus {
+  box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.tag {
+  border: 2px solid black;
+  font-weight: 700;
+  font-size: 11px;
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-tab {
+  border: 2px solid black;
+  border-bottom: none;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background 0.1s;
+  letter-spacing: 0.05em;
+}
+
+.nav-tab.active {
+  background: #ffeb3b;
+}
+
+.nav-tab:hover:not(.active) {
+  background: #f0f0f0;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
