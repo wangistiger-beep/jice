@@ -16,6 +16,58 @@ export const startups = [
     description: "成功说服投资人相信它是科技公司，实际上不过是一家爱摆泡沫球的房地产公司。巅峰估值470亿美元，最终破产清算。",
     difficulty: 4,
     scalability: 2,
+    detail: {
+      profile: {
+        nameLocation: "WeWork，总部位于美国纽约",
+        coreTechPositioning: "共享办公空间，将传统房地产包装为\"科技驱动的社区平台\"",
+        fundingEndorsement: "累计融资115亿美元，投资方包括软银愿景基金（领投）、Benchmark、JP Morgan等",
+        visionValueProposition: "重塑工作方式，打造全球性的创意工作社区，让企业无需长期租约即可获得灵活办公空间",
+        keyData: {
+          founded: 2010,
+          died: 2023,
+          cashBurned: "115亿美元"
+        }
+      },
+      failureAnalysis: {
+        fatalFlaw: "将重资产房地产公司包装为科技公司进行估值，同时单位经济学永远无法覆盖租金成本",
+        marketIndustryContext: "2010年代后期的共享经济泡沫，投资人疯狂追逐\"改变世界\"的故事，对基本面视而不见",
+        logicFlaws: {
+          economicLogic: "长期租赁合同的固定成本远高于灵活办公的可变收入，每开一个新地点就意味着更多亏损",
+          physicalTechLimits: "试图用\"社区\"和\"文化\"的故事掩盖房地产的本质物理属性——租金是硬成本，无法通过软件快速优化",
+          scalability: "看似是可快速复制的轻资产模式，实际上每个新地点都需要大量前期投入和长期租约，是典型的线性扩张"
+        }
+      },
+      rebuildPivotStrategy: {
+        pivotConcept: "从重资产自营转向轻资产特许经营+企业解决方案平台",
+        insight: "企业客户愿意为灵活办公支付溢价，但他们需要的是可靠的服务，而不是创始人的个人崇拜和华丽派对",
+        productRestructuring: {
+          businessModelShift: "从\"我们拥有空间\"转向\"我们管理空间\"，成为企业客户的办公空间战略顾问"
+        },
+        wedge: "瞄准金融、法律、咨询等对办公环境有高要求、付费能力强的行业头部客户"
+      },
+      executionPlan: {
+        techStack: ["企业房地产管理SaaS", "空间利用数据分析平台", "远程办公协作工具"],
+        phasedRoadmap: {
+          phase1: "快速与现有优质租户签订长期企业服务合同，确保稳定现金流",
+          phase2: "利用数据优化空间利用率，证明轻资产模式的单位经济学确实成立",
+          phase3: "通过特许经营模式扩张，让合作伙伴承担租金风险，WeWork提供品牌和运营支持",
+          phase4: "建立企业客户网络和数据资产，成为商业地产领域的平台级玩家"
+        }
+      },
+      monetizationExit: {
+        revenueStreams: {
+          oneTime: ["空间装修服务", "企业顾问咨询"],
+          recurring: ["会员订阅费", "特许经营授权费", "企业服务包"]
+        },
+        marginAnalysis: "轻资产模式下，毛利率可以从原来的个位数提升到30%+，因为不再承担固定租金成本",
+        exitLogic: "商业地产服务商或企业软件公司会愿意收购，估值倍数将从房地产的5-8x EBITDA转向SaaS的15-20x"
+      },
+      relatedFailures: [
+        { id: 7, name: "Webvan" },
+        { id: 44, name: "ofo小黄车" },
+        { id: 35, name: "Quirky" }
+      ]
+    }
   },
   {
     id: 2,

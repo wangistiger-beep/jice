@@ -1,0 +1,45 @@
+{
+  "name": "loot-drop-scraper",
+  "version": "1.0.0",
+  "description": "Loot Drop 案例爬取与上传工具 - 独立CLI工具",
+  "main": "index.js",
+  "type": "commonjs",
+  "bin": {
+    "loot-drop-scraper": "./cli.js",
+    "lds": "./cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "scrape": "node cli.js scrape",
+    "upload": "node cli.js upload",
+    "full": "node cli.js full",
+    "list": "node cli.js list",
+    "config": "node cli.js config",
+    "init": "node cli.js init",
+    "help": "node cli.js --help"
+  },
+  "keywords": [
+    "scraper",
+    "case-study",
+    "cli",
+    "loot-drop"
+  ],
+  "author": "Loot Drop Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/loot-drop-scraper.git"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^11.1.0",
+    "puppeteer": "^21.0.0",
+    "node-fetch": "^2.7.0",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

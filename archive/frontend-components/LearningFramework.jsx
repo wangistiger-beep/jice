@@ -6,16 +6,16 @@ export default function LearningFramework() {
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
           <div>
-            <span className="tag bg-[#ffeb3b] text-black text-xs mb-3 inline-block">失败框架</span>
+            <span className="tag bg-[#ffeb3b] text-black text-xs mb-3 inline-block">案例复盘</span>
             <h2 className="font-black font-mono text-3xl md:text-4xl uppercase leading-none">
-              创业公司的 7 种死法
+              创业公司的 7 种典型模式
             </h2>
             <p className="font-mono text-gray-400 text-sm mt-2">
-              每一次失败，至少对应以下一种反模式
+              每一次案例复盘，至少对应以下一种模式
             </p>
           </div>
           <button className="brutal-btn bg-[#ffeb3b] text-black px-6 py-3 font-mono uppercase text-sm self-start md:self-auto">
-            探索全部反模式 →
+            探索全部模式 →
           </button>
         </div>
 

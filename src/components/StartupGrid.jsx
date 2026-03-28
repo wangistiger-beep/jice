@@ -1,21 +1,91 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import StartupCard from './StartupCard';
-import { categories } from '../data/startups';
+import { useTags } from '../hooks/useTags';
+
+const completeCategories = [
+  "全部",
+  "软件",
+  "设计",
+  "AI",
+  "人工智能",
+  "社交",
+  "社交平台",
+  "硬件",
+  "智能硬件",
+  "医疗",
+  "医疗科技",
+  "出行",
+  "娱乐",
+  "媒体",
+  "金融",
+  "金融科技",
+  "互联网",
+  "电商",
+  "电子商务",
+  "本地生活",
+  "企业服务",
+  "清洁科技",
+  "加密货币",
+  "生物科技",
+  "物流",
+  "汽车",
+  "共享经济",
+  "房地产",
+  "内容",
+  "消费",
+  "SaaS",
+  "食品科技",
+  "其他"
+];
+
+const caseTypes = [
+  { value: 'all', label: '全部类型' },
+  { value: 'success', label: '成功案例' },
+  { value: 'failure', label: '失败案例' }
+];
 
 export default function StartupGrid({ startups, searchQuery }) {
   const [activeCategory, setActiveCategory] = useState('全部');
-  const [selectedStartup, setSelectedStartup] = useState(null);
+  const [activeCaseType, setActiveCaseType] = useState('all');
+  const [activeTag, setActiveTag] = useState(null);
+  const { tags, loading: tagsLoading } = useTags();
+
+  const dynamicCategories = useMemo(() => {
+    const categorySet = new Set();
+    startups.forEach(startup => {
+      if (startup.categories && Array.isArray(startup.categories)) {
+        startup.categories.forEach(cat => {
+          if (cat && cat.trim()) {
+            categorySet.add(cat.trim());
+          }
+        });
+      }
+    });
+    
+    const sortedCategories = ["全部", ...Array.from(categorySet).sort()];
+    
+    const mergedSet = new Set(sortedCategories);
+    completeCategories.forEach(cat => mergedSet.add(cat));
+    
+    return ["全部", ...Array.from(mergedSet).filter(cat => cat !== "全部").sort()];
+  }, [startups]);
 
   const filtered = startups.filter((s) => {
     const matchesQuery = !searchQuery ||
       s.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      s.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      s.causes.some(c => c.toLowerCase().includes(searchQuery.toLowerCase()));
+      (s.description && s.description.toLowerCase().includes(searchQuery.toLowerCase())) ||
+      (s.causes && s.causes.some(c => c.toLowerCase().includes(searchQuery.toLowerCase())));
 
     const matchesCategory = activeCategory === '全部' ||
-      s.categories.includes(activeCategory);
+      (s.categories && s.categories.includes(activeCategory));
 
-    return matchesQuery && matchesCategory;
+    const matchesCaseType = activeCaseType === 'all' ||
+      s.caseType === activeCaseType;
+
+    const matchesTag = !activeTag ||
+      (s.causes && s.causes.includes(activeTag));
+
+    return matchesQuery && matchesCategory && matchesCaseType && matchesTag;
   });
 
   return (
@@ -23,10 +93,10 @@ export default function StartupGrid({ startups, searchQuery }) {
       <div className="flex items-center justify-between mb-6">
         <div>
           <h2 className="font-black font-mono text-2xl uppercase">
-            {searchQuery ? `"${searchQuery}" 的搜索结果` : '创业公司坟场'}
+            {searchQuery ? `"${searchQuery}" 的搜索结果` : '创业案例库'}
           </h2>
           <p className="font-mono text-sm text-gray-500">
-            共找到 {filtered.length} 家公司
+            共找到 {filtered.length} 个案例
           </p>
         </div>
         <select className="brutal-input px-3 py-2 text-sm font-mono bg-white cursor-pointer">
@@ -37,12 +107,59 @@ export default function StartupGrid({ startups, searchQuery }) {
         </select>
       </div>
 
-      <div className="flex gap-2 overflow-x-auto scrollbar-hide mb-8 pb-2">
-        {categories.map((cat) => (
+      <div className="flex flex-wrap gap-2 mb-4">
+        {caseTypes.map((type) => (
+          <button
+            key={type.value}
+            onClick={() => setActiveCaseType(type.value)}
+            className={`brutal-btn px-4 py-2 text-xs font-mono uppercase ${
+              activeCaseType === type.value ? 'bg-[#ffeb3b]' : 'bg-white'
+            }`}
+          >
+            {type.label}
+          </button>
+        ))}
+      </div>
+
+      {tags.length > 0 && (
+        <div className="mb-8">
+          <h4 className="font-black font-mono text-sm uppercase mb-3">🏷️ 标签筛选</h4>
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => setActiveTag(null)}
+              className={`brutal-btn px-3 py-1.5 text-xs font-mono uppercase ${
+                !activeTag ? 'bg-[#00b4d8] text-white' : 'bg-white'
+              }`}
+            >
+              全部标签
+            </button>
+            {tagsLoading ? (
+              <div className="brutal-btn bg-gray-100 px-3 py-1.5 text-xs font-mono uppercase">
+                加载中...
+              </div>
+            ) : (
+              tags.slice(0, 20).map((tag) => (
+                <button
+                  key={tag.id}
+                  onClick={() => setActiveTag(activeTag === tag.name ? null : tag.name)}
+                  className={`brutal-btn px-3 py-1.5 text-xs font-mono uppercase ${
+                    activeTag === tag.name ? 'bg-[#00b4d8] text-white' : 'bg-white'
+                  }`}
+                >
+                  {tag.name} ({tag.caseCount})
+                </button>
+              ))
+            )}
+          </div>
+        </div>
+      )}
+
+      <div className="flex flex-wrap gap-2 mb-8">
+        {dynamicCategories.map((cat) => (
           <button
             key={cat}
             onClick={() => setActiveCategory(cat)}
-            className={`brutal-btn flex-shrink-0 px-4 py-2 text-xs font-mono uppercase ${
+            className={`brutal-btn px-4 py-2 text-xs font-mono uppercase ${
               activeCategory === cat ? 'bg-[#ffeb3b]' : 'bg-white'
             }`}
           >
@@ -63,7 +180,6 @@ export default function StartupGrid({ startups, searchQuery }) {
             <StartupCard
               key={startup.id}
               startup={startup}
-              onClick={setSelectedStartup}
             />
           ))}
         </div>
@@ -74,82 +190,6 @@ export default function StartupGrid({ startups, searchQuery }) {
           <button className="brutal-btn bg-black text-white px-8 py-4 font-mono uppercase text-sm">
             加载更多案例 💀
           </button>
-        </div>
-      )}
-
-      {selectedStartup && (
-        <div
-          className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4"
-          onClick={() => setSelectedStartup(null)}
-        >
-          <div
-            className="bg-white border-4 border-black max-w-2xl w-full max-h-[90vh] overflow-y-auto"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="bg-[#ffeb3b] border-b-4 border-black p-6 flex items-center justify-between">
-              <div className="flex items-center gap-4">
-                <span className="text-4xl">{selectedStartup.logo}</span>
-                <div>
-                  <h2 className="font-black font-mono text-2xl uppercase">{selectedStartup.name}</h2>
-                  <p className="font-mono text-sm">{selectedStartup.country} · {selectedStartup.founded}–{selectedStartup.died}</p>
-                </div>
-              </div>
-              <button
-                onClick={() => setSelectedStartup(null)}
-                className="brutal-btn bg-black text-white w-10 h-10 flex items-center justify-center text-xl"
-              >
-                ×
-              </button>
-            </div>
-
-            <div className="p-6 space-y-6">
-              <div className="grid grid-cols-3 gap-3">
-                <div className="border-4 border-black p-3 text-center bg-red-50">
-                  <div className="font-mono text-xs uppercase text-gray-500">已烧金额</div>
-                  <div className="font-black font-mono text-xl">{selectedStartup.capital}</div>
-                </div>
-                <div className="border-4 border-black p-3 text-center bg-blue-50">
-                  <div className="font-mono text-xs uppercase text-gray-500">存活时长</div>
-                  <div className="font-black font-mono text-xl">{selectedStartup.lifespan}</div>
-                </div>
-                <div className="border-4 border-black p-3 text-center bg-yellow-50">
-                  <div className="font-mono text-xs uppercase text-gray-500">所属赛道</div>
-                  <div className="font-black font-mono text-sm">{selectedStartup.categories[0]}</div>
-                </div>
-              </div>
-
-              <div>
-                <h4 className="font-black font-mono uppercase text-sm mb-2 border-b-2 border-black pb-1">死亡原因</h4>
-                <p className="font-sans text-gray-700 leading-relaxed">{selectedStartup.description}</p>
-              </div>
-
-              <div>
-                <h4 className="font-black font-mono uppercase text-sm mb-2 border-b-2 border-black pb-1">失败模式</h4>
-                <div className="flex flex-wrap gap-2">
-                  {selectedStartup.causes.map((cause) => (
-                    <span key={cause} className="tag bg-red-100 border-red-400 text-sm">☠️ {cause}</span>
-                  ))}
-                </div>
-              </div>
-
-              <div className="bg-black text-white p-5 border-4 border-black">
-                <h4 className="font-black font-mono uppercase text-sm mb-3">🔨 重建方案已生成</h4>
-                <div className="grid grid-cols-5 gap-2 mb-4">
-                  {['建什么', '市场分析', '实施步骤', '技术选型', '盈利模型'].map((step, i) => (
-                    <div key={step} className="text-center">
-                      <div className="w-8 h-8 bg-[#ffeb3b] text-black border-2 border-[#ffeb3b] font-black font-mono flex items-center justify-center mx-auto mb-1">
-                        {String(i + 1).padStart(2, '0')}
-                      </div>
-                      <div className="font-mono text-xs text-gray-300 leading-tight">{step}</div>
-                    </div>
-                  ))}
-                </div>
-                <button className="brutal-btn bg-[#ffeb3b] text-black w-full py-3 font-mono uppercase text-sm">
-                  查看完整重建方案 →
-                </button>
-              </div>
-            </div>
-          </div>
         </div>
       )}
     </section>

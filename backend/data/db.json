@@ -1,0 +1,4908 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@loot-drop.io",
+      "password": "$2a$10$N8.jq5P7OM7HeyUlNE93WuWkavT2rN9bEu304Bmh9z.pHWxaVd5Bm",
+      "role": "admin",
+      "status": "approved",
+      "createdAt": "2026-03-23T08:37:39.109Z",
+      "updatedAt": "2026-03-23T08:37:39.110Z"
+    },
+    {
+      "id": 2,
+      "username": "test",
+      "email": "111@qq.com",
+      "password": "$2a$10$Q9ilmSPntWc9u0uScb0v8eTxZn6A.uoYu.JX0yicUEI.9bv7YnPye",
+      "role": "user",
+      "status": "approved",
+      "createdAt": "2026-03-23T09:18:31.744Z",
+      "updatedAt": "2026-03-23T09:18:47.124Z"
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "title": "Stripe - 支付革命",
+      "logo": "💰",
+      "category": "金融",
+      "tags": [
+        "支付",
+        "FinTech",
+        "创业成功"
+      ],
+      "caseType": "success",
+      "productType": "SaaS",
+      "authorId": 2,
+      "profile": {
+        "companyName": "Stripe",
+        "location": "美国 旧金山",
+        "coreTech": "在线支付处理",
+        "totalFunding": "23亿美元",
+        "investors": "Sequoia Capital, Andreessen Horowitz",
+        "vision": "简化在线支付，让任何人都能接受支付",
+        "founded": "2010年",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "开发者友好的API设计 + 解决真实痛点",
+        "marketStrategy": "从开发者切入，再扩展到企业客户",
+        "businessModel": "交易手续费 + 增值服务",
+        "techInnovation": "简洁的API设计、优秀的开发者文档",
+        "growthStrategy": "开发者口碑传播 + 企业销售",
+        "successLessons": "1. 解决开发者痛点\n2. 优秀的API设计\n3. 渐进式市场扩展"
+      },
+      "assessment": {
+        "marketPotential": "支付市场规模巨大，全球在线支付持续增长",
+        "difficultyAnalysis": "需要监管合规、技术门槛高",
+        "scalabilityAnalysis": "软件即服务模式，边际成本低"
+      },
+      "rebuild": {
+        "pivotConcept": "从支付处理扩展到金融基础设施",
+        "insight": "企业需要更全面的金融服务",
+        "productRefactor": "从单一支付产品扩展到多元化金融服务",
+        "wedge": "开发者和中小企业"
+      },
+      "execution": {
+        "techStack": "Ruby on Rails, JavaScript, APIs",
+        "phase1": "MVP - 简单的支付API",
+        "phase2": "验证 - 开发者采用验证",
+        "phase3": "扩张 - 企业客户拓展",
+        "phase4": "护城河 - 生态系统建设"
+      },
+      "monetization": {
+        "revenueStreams": "交易手续费 (2.9% + $0.30) + 企业定制服务",
+        "profitAnalysis": "规模效应显著，单位经济效益优秀",
+        "exitLogic": "独立发展或被金融巨头收购"
+      },
+      "status": "published",
+      "createdAt": "2026-03-23T09:37:11.506Z",
+      "updatedAt": "2026-03-26T01:30:42.093Z",
+      "profitAmount": "约1200亿美元（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 5,
+      "potentialScale": 3,
+      "isRecommended": true,
+      "recommendedAt": "2026-03-25T06:38:06.786Z",
+      "recommendedBy": 1,
+      "views": {
+        "total": 6,
+        "weekly": {
+          "13": 6
+        },
+        "monthly": {
+          "2": 6
+        },
+        "lastViewed": "2026-03-26T01:30:42.093Z"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Quibi - 短视频流媒体",
+      "logo": "📱",
+      "category": "其他",
+      "tags": [
+        "流媒体",
+        "短视频",
+        "创业失败"
+      ],
+      "caseType": "failure",
+      "productType": "APP",
+      "authorId": 2,
+      "profile": {
+        "companyName": "Quibi",
+        "location": "美国 洛杉矶",
+        "coreTech": "移动端短视频流媒体",
+        "totalFunding": "17.5亿美元",
+        "investors": "Disney, NBCUniversal, WarnerMedia",
+        "vision": "通勤场景的优质短视频内容",
+        "founded": "2018年",
+        "closed": "2020年",
+        "cashBurned": "约17.5亿美元"
+      },
+      "failure": {
+        "fatalFlaw": "错误的市场假设 + 付费墙战略 + 时机太差",
+        "marketBackground": "新冠疫情爆发，通勤场景消失",
+        "economicLogic": "内容成本过高，订阅模式难以覆盖",
+        "techLimitations": "试图用软件逻辑解决硬件和场景限制",
+        "scalability": "内容驱动的线性增长，非网络效应",
+        "lessonsLearned": "1. 不要假设市场\n2. 付费墙要谨慎\n3. 时机很重要"
+      },
+      "assessment": {
+        "marketPotential": "短视频市场巨大，但竞争激烈",
+        "difficultyAnalysis": "内容成本极高，版权问题复杂",
+        "scalabilityAnalysis": "内容驱动模式，难以规模化盈利"
+      },
+      "rebuild": {
+        "pivotConcept": "从付费订阅转向广告支持 + 免费内容",
+        "insight": "用户不会为短视频付费，但广告商愿意",
+        "productRefactor": "从原创内容转向用户生成内容平台",
+        "wedge": "创作者和年轻用户"
+      },
+      "execution": {
+        "techStack": "iOS, Android, 视频编解码",
+        "phase1": "MVP - 原创短视频平台",
+        "phase2": "验证 - 用户留存验证",
+        "phase3": "扩张 - 内容库扩张",
+        "phase4": "护城河 - 原创内容独家权"
+      },
+      "monetization": {
+        "revenueStreams": "订阅费 ($4.99/月) + 潜在广告",
+        "profitAnalysis": "内容成本过高，单位经济学不佳",
+        "exitLogic": "资产出售给竞争对手或内容公司"
+      },
+      "status": "published",
+      "createdAt": "2026-03-23T09:37:11.507Z",
+      "updatedAt": "2026-03-25T06:38:06.785Z",
+      "profitAmount": "",
+      "lossAmount": "约17.5亿美元",
+      "marketPotentialScore": 5,
+      "potentialScale": 3,
+      "rebuildPotential": 4,
+      "isRecommended": false,
+      "recommendedAt": null,
+      "recommendedBy": null
+    },
+    {
+      "id": 3,
+      "title": "Airbnb - 共享经济革命",
+      "logo": "🏠",
+      "category": "互联网",
+      "tags": [
+        "共享经济",
+        "住宿",
+        "创业成功",
+        "平台模式"
+      ],
+      "caseType": "success",
+      "productType": "平台",
+      "authorId": 2,
+      "profile": {
+        "companyName": "Airbnb, Inc.",
+        "location": "美国 旧金山",
+        "coreTech": "在线住宿预订平台、共享经济模式",
+        "totalFunding": "超过60亿美元",
+        "investors": "Sequoia Capital, Andreessen Horowitz, Founders Fund",
+        "vision": "让任何人都能通过分享空间赚钱，让旅行者获得独特的住宿体验",
+        "founded": "2008年8月",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "解决真实痛点（住宿贵+闲置空间）+ 信任机制创新 + 社区驱动增长",
+        "marketStrategy": "从设计师会议切入，逐步扩展到全球市场",
+        "businessModel": "平台佣金模式（房东3%，房客6-12%）",
+        "techInnovation": "双向评价系统、身份验证、智能定价工具、房东保障计划",
+        "growthStrategy": "口碑传播 + 城市扩张策略 + 国际化",
+        "successLessons": "1. 从细分市场切入\n2. 建立信任是核心\n3. 重视社区建设\n4. 持续创新和迭代\n5. 合规化运营"
+      },
+      "assessment": {
+        "marketPotential": "全球旅游住宿市场规模巨大，传统酒店存在价格高、体验单一的问题",
+        "difficultyAnalysis": "需要解决信任、安全、法律合规等多重挑战",
+        "scalabilityAnalysis": "平台模式边际成本低，网络效应强，规模化后盈利能力强"
+      },
+      "rebuild": {
+        "pivotConcept": "从单纯住宿扩展到体验、活动、商务差旅等多元化服务",
+        "insight": "用户需要的不只是住宿，而是完整的旅行体验",
+        "productRefactor": "从C2C住宿扩展到Experiences、Adventures、Business Travel",
+        "wedge": "追求独特体验的年轻旅行者"
+      },
+      "execution": {
+        "techStack": "Ruby on Rails, React, AWS, 大数据分析",
+        "phase1": "MVP - 简单的住宿预订网站，验证需求",
+        "phase2": "验证 - 建立信任机制（评价、验证、保障），提高留存",
+        "phase3": "扩张 - 城市扩张策略，全球化布局",
+        "phase4": "护城河 - 品牌建设、社区生态、多元化服务"
+      },
+      "monetization": {
+        "revenueStreams": "平台佣金（房东3%，房客6-12%）+ 增值服务",
+        "profitAnalysis": "规模效应显著，2023年营收99亿美元，净利润19亿美元",
+        "exitLogic": "2020年IPO上市，市值超过1000亿美元"
+      },
+      "status": "published",
+      "createdAt": "2026-03-23T09:48:22.354Z",
+      "updatedAt": "2026-03-25T06:38:02.657Z",
+      "reviewedBy": 1,
+      "reviewedAt": "2026-03-23T09:48:22.356Z",
+      "profitAmount": "约800亿美元（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 5,
+      "potentialScale": 5,
+      "isRecommended": true,
+      "recommendedAt": "2026-03-25T06:38:02.657Z",
+      "recommendedBy": 1
+    },
+    {
+      "id": 4,
+      "title": "WeWork - 共享办公泡沫",
+      "logo": "🏢",
+      "category": "房地产",
+      "tags": [
+        "共享办公",
+        "创业失败",
+        "IPO失败",
+        "过度扩张"
+      ],
+      "caseType": "failure",
+      "productType": "服务",
+      "authorId": 2,
+      "profile": {
+        "companyName": "The We Company (WeWork)",
+        "location": "美国 纽约",
+        "coreTech": "共享办公空间租赁与管理",
+        "totalFunding": "超过220亿美元",
+        "investors": "SoftBank, Benchmark, JP Morgan, Goldman Sachs",
+        "vision": "创造一个让人们热爱工作、热爱生活的世界",
+        "founded": "2010年",
+        "closed": "",
+        "cashBurned": "超过200亿美元"
+      },
+      "failure": {
+        "fatalFlaw": "单位经济学崩溃 + 过度扩张 + 创始人治理问题 + 商业模式不可持续",
+        "marketBackground": "2019年IPO失败，暴露财务问题；新冠疫情重创办公租赁市场",
+        "economicLogic": "长期租赁+短期转租，风险不对称；空置率上升时亏损放大",
+        "techLimitations": "本质是房地产公司，而非科技公司，技术壁垒低",
+        "scalability": "重资产模式，扩张需要大量资本，边际成本高",
+        "lessonsLearned": "1. 不要把传统行业包装成科技公司\n2. 单位经济学必须健康\n3. 创始人治理结构很重要\n4. 过度扩张是危险的\n5. IPO文件要诚实披露风险"
+      },
+      "assessment": {
+        "marketPotential": "共享办公市场存在需求，但商业模式需要调整",
+        "difficultyAnalysis": "房地产周期性强，受经济环境影响大",
+        "scalabilityAnalysis": "重资产模式难以快速规模化盈利"
+      },
+      "rebuild": {
+        "pivotConcept": "从自营转向轻资产模式：管理服务输出 + 企业定制办公",
+        "insight": "企业需要灵活办公解决方案，但不一定需要WeWork持有资产",
+        "productRefactor": "从自营空间转向管理服务，输出品牌和运营能力",
+        "wedge": "中小企业和大型企业的灵活办公需求"
+      },
+      "execution": {
+        "techStack": "空间管理系统、会员App、数据分析平台",
+        "phase1": "MVP - 单一地点验证轻资产模式",
+        "phase2": "验证 - 与业主合作分成模式验证",
+        "phase3": "扩张 - 企业客户拓展，输出管理服务",
+        "phase4": "护城河 - 品牌和运营能力"
+      },
+      "monetization": {
+        "revenueStreams": "管理费 + 会员费 + 企业服务费",
+        "profitAnalysis": "轻资产模式下，利润率可提升至15-20%",
+        "exitLogic": "被大型房地产公司或私募基金收购"
+      },
+      "status": "published",
+      "createdAt": "2026-03-23T09:48:22.355Z",
+      "updatedAt": "2026-03-25T07:15:27.786Z",
+      "reviewedBy": 1,
+      "reviewedAt": "2026-03-23T09:48:22.356Z",
+      "profitAmount": "",
+      "lossAmount": "超过200亿美元",
+      "marketPotentialScore": 3,
+      "potentialScale": 3,
+      "rebuildPotential": 4,
+      "isRecommended": true,
+      "recommendedAt": "2026-03-25T06:38:05.362Z",
+      "recommendedBy": 1,
+      "views": {
+        "total": 2,
+        "weekly": {
+          "13": 2
+        },
+        "monthly": {
+          "2": 2
+        },
+        "lastViewed": "2026-03-25T07:15:27.786Z"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Plenty Unlimited - 垂直农业革命",
+      "logo": "🌱",
+      "category": "清洁科技",
+      "tags": [
+        "垂直农业",
+        "AI机器人",
+        "食品科技",
+        "单位经济失败"
+      ],
+      "caseType": "failure",
+      "productType": "硬件",
+      "profile": {
+        "companyName": "Plenty Unlimited",
+        "location": "美国 旧金山",
+        "coreTech": "AI和机器人驱动的垂直农业",
+        "totalFunding": "10亿美元",
+        "investors": "SoftBank Vision Fund, Google Ventures, Amazon Alexa Fund",
+        "vision": "利用AI和机器人技术种植无农药农产品，比传统农业节省99%的水和土地",
+        "founded": "2014年",
+        "closed": "2024年",
+        "cashBurned": "约10亿美元"
+      },
+      "failure": {
+        "fatalFlaw": "单位经济学永远无法成立：10亿美元也无法克服能源成本、建设费用，以及无法与2美元的生菜竞争",
+        "marketBackground": "2010年代垂直农业热潮，投资人相信室内农场可以解决全球粮食安全问题",
+        "economicLogic": "室内种植的能源和建设成本远高于传统农业，每棵生菜的生产成本是户外种植的10倍以上",
+        "techLimitations": "试图用AI和机器人优化种植，但室内环境的能源消耗始终是硬成本，无法通过软件快速优化",
+        "scalability": "看似是可复制的高科技模式，实际上每个新农场都需要大量前期投入和持续的高能源成本，是典型的线性扩张",
+        "lessonsLearned": "1. 不要低估能源等硬成本\n2. 与传统农业竞争价格极其困难\n3. 单位经济学必须在规模扩张前验证\n4. 高科技不能解决所有物理限制问题"
+      },
+      "assessment": {
+        "marketPotential": "垂直农业市场存在需求，但必须找到成本可控的商业模式",
+        "difficultyAnalysis": "能源成本高、建设周期长、技术门槛高",
+        "scalabilityAnalysis": "重资产模式，难以快速规模化盈利"
+      },
+      "rebuild": {
+        "pivotConcept": "从高科技室内农场转向轻资产模式：技术授权+咨询服务",
+        "insight": "企业愿意为垂直农业技术付费，但不一定需要自己拥有和运营农场",
+        "productRefactor": "从\"我们运营农场\"转向\"我们提供技术\"，成为农业科技解决方案提供商",
+        "wedge": "瞄准需要垂直农业技术的传统农业企业和政府机构"
+      },
+      "execution": {
+        "techStack": [
+          "垂直农业控制系统",
+          "AI种植优化平台",
+          "数据分析工具"
+        ],
+        "phase1": "MVP - 将现有技术打包为SaaS产品，验证市场需求",
+        "phase2": "验证 - 与现有农场合作，证明技术能提升产量和降低成本",
+        "phase3": "扩张 - 通过授权模式扩张，让合作伙伴承担建设和运营风险",
+        "phase4": "护城河 - 建立技术专利和行业标准"
+      },
+      "monetization": {
+        "revenueStreams": "软件授权费 + 咨询服务费 + 数据分析套餐",
+        "profitAnalysis": "轻资产模式下，毛利率可以从原来的个位数提升到40%+，因为不再承担能源和建设成本",
+        "exitLogic": "农业科技公司或传统农业企业会愿意收购，估值倍数将从重资产的5-8x转向SaaS的12-18x"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-23T10:36:01.355Z",
+      "updatedAt": "2026-03-23T10:36:01.408Z",
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-23T10:36:01.408Z",
+      "profitAmount": "",
+      "lossAmount": "约10亿美元",
+      "marketPotentialScore": 3,
+      "potentialScale": 3,
+      "rebuildPotential": 4
+    },
+    {
+      "id": 6,
+      "title": "腾讯 - 社交帝国的崛起",
+      "logo": "🐧",
+      "category": "互联网",
+      "tags": [
+        "社交网络",
+        "游戏",
+        "微信",
+        "QQ",
+        "投资并购"
+      ],
+      "caseType": "success",
+      "productType": "平台",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "腾讯控股有限公司",
+        "location": "中国 深圳",
+        "coreTech": "即时通讯技术、社交网络平台、游戏引擎、支付系统",
+        "totalFunding": "早期天使投资，香港IPO融资约14亿港元",
+        "investors": "IDG资本、MIH（Naspers）",
+        "vision": "通过互联网服务提升人类生活品质",
+        "founded": "1998",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "1. 抓住中国互联网早期机遇，QQ满足即时通讯刚需\n2. 产品快速迭代，响应用户需求变化\n3. 社交+游戏双轮驱动，构建高粘性生态\n4. 强大的投资并购战略，完善产业布局\n5. 从PC到移动的成功转型",
+        "marketStrategy": "从学生群体切入，逐步扩展到全年龄段用户；通过免费IM建立用户基础，再通过增值服务和游戏变现；农村包围城市，先渗透二三线城市再攻占一线城市",
+        "businessModel": "QQ会员/红钻等增值服务 + 网络游戏收入 + 社交广告 + 金融科技（微信支付）+ 投资收益",
+        "techInnovation": "1. 稳定的即时通讯技术架构，承载亿级并发\n2. QQ秀等虚拟物品创新，开创中国增值服务先河\n3. 微信的简洁产品设计与微创新\n4. 微信支付的扫码支付创新\n5. 游戏引擎与运营平台",
+        "growthStrategy": "1. 病毒式传播 + 口碑传播\n2. 绑定手机号 + 实名认证，建立信任机制\n3. 从PC到移动的平滑过渡（微信）\n4. 通过投资并购扩展边界\n5. 国际化尝试（WeChat）",
+        "successLessons": "1. 刚需切入，免费获取用户，再考虑变现\n2. 持续关注用户体验，快速产品迭代\n3. 建立高粘性社交关系链，构筑护城河\n4. 现金流业务（游戏）为创新提供弹药\n5. 把握时代机遇，从PC到移动的成功转型\n6. 开放与合作，通过投资完善生态"
+      },
+      "assessment": {
+        "marketPotential": "中国社交娱乐市场规模巨大，且存在国际化机会；从社交延伸到支付、内容、金融等领域，边界不断扩大",
+        "difficultyAnalysis": "需要持续的产品创新、强大的技术架构、敏感的政策嗅觉、以及对用户需求的深刻理解",
+        "scalabilityAnalysis": "网络效应极强，边际成本低；一旦建立社交关系链，用户迁移成本极高；可通过多元化变现提高ARPU值"
+      },
+      "rebuild": {
+        "pivotConcept": "从即时通讯工具转型为数字生活基础设施平台",
+        "insight": "用户的需求不只是聊天，而是完整的数字生活：通讯、社交、娱乐、支付、购物、出行等",
+        "productRefactor": "从单一QQ产品，进化为QQ+微信双引擎，再到微信生态（支付、小程序、公众号），最终成为数字生活平台",
+        "wedge": "以即时通讯为入口，先建立用户关系链，再逐步扩展到其他服务"
+      },
+      "execution": {
+        "techStack": "C/C++后端架构、Android/iOS客户端、游戏引擎、大数据分析平台、支付系统、CDN加速",
+        "phase1": "MVP - 简单的中文ICQ克隆（OICQ），验证即时通讯需求",
+        "phase2": "验证 - QQ秀、QQ会员等增值服务验证变现模式，同时建立技术架构承载亿级用户",
+        "phase3": "扩张 - 游戏业务起飞，成为现金牛；微信开启移动时代；投资并购完善生态",
+        "phase4": "护城河 - 微信支付+小程序建立数字生态，成为基础设施"
+      },
+      "monetization": {
+        "revenueStreams": "1. 网络游戏（最大收入来源，包括自研+代理）\n2. 社交广告（朋友圈广告、公众号广告）\n3. 金融科技（微信支付手续费、理财通）\n4. 增值服务（QQ会员、视频会员、音乐会员等）\n5. 云服务\n6. 投资收益",
+        "profitAnalysis": "游戏和广告业务毛利率超过50%；网络效应显著，规模效应强；2023年营收约6000亿人民币，净利润约2000亿人民币",
+        "exitLogic": "2004年香港主板上市，市值从上市时约60亿港元增长到最高超过7万亿港元，成为中国市值最高的科技公司之一"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过 - 完整数据补充",
+      "reviewedAt": "2026-03-24T11:15:28.427Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:15:28.427Z",
+      "updatedAt": "2026-03-24T11:15:28.427Z",
+      "profitAmount": "约6000亿人民币（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 5,
+      "potentialScale": 5
+    },
+    {
+      "id": 7,
+      "title": "阿里巴巴 - 电商帝国的崛起",
+      "logo": "🛒",
+      "category": "电商",
+      "tags": [
+        "电子商务",
+        "B2B",
+        "淘宝",
+        "支付宝",
+        "跨境电商"
+      ],
+      "caseType": "success",
+      "productType": "平台",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "阿里巴巴集团",
+        "location": "中国 杭州",
+        "coreTech": "电子商务平台、支付系统、云服务、大数据分析",
+        "totalFunding": "软银投资2000万美元，后多轮融资",
+        "investors": "软银、雅虎、高盛",
+        "vision": "让天下没有难做的生意",
+        "founded": "1999",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "1. 抓住中国互联网早期电商机遇\n2. B2B切入，C2C扩展，生态化布局\n3. 支付宝解决信任问题\n4. 阿里云构建技术护城河\n5. 双十一创造购物节营销奇迹",
+        "marketStrategy": "从中小企业B2B切入，逐步扩展到C2C（淘宝）、B2C（天猫）；通过支付宝建立信任；农村包围城市，从中国制造到全球卖",
+        "businessModel": "B2B会员费 + C2C/B2C佣金 + 支付宝手续费 + 阿里云服务 + 广告 + 金融科技",
+        "techInnovation": "1. 淘宝去中心化电商平台\n2. 支付宝担保交易创新\n3. 阿里云自主研发云计算技术\n4. 双十一大促技术架构\n5. 菜鸟物流智能调度",
+        "growthStrategy": "1. 从B2B到C2C再到B2C的演进\n2. 支付宝独立发展，构建金融生态\n3. 阿里云技术输出\n4. 投资并购完善生态（高德、优酷、饿了么等）\n5. 全球化布局",
+        "successLessons": "1. 信任是电商的核心\n2. 生态化布局的重要性\n3. 技术是长期竞争力\n4. 营销创造需求（双十一）\n5. 持续创新，不断进化"
+      },
+      "assessment": {
+        "marketPotential": "中国及全球电商市场巨大，从实物到服务的边界不断扩展",
+        "difficultyAnalysis": "需要解决信任、支付、物流三大难题，需要持续的技术投入",
+        "scalabilityAnalysis": "平台网络效应强，但物流等重资产部分边际成本高"
+      },
+      "rebuild": {
+        "pivotConcept": "从信息平台到交易平台再到数字经济基础设施",
+        "insight": "中小企业不仅需要信息，更需要交易、支付、物流、金融的一站式服务",
+        "productRefactor": "从B2B黄页，到淘宝C2C交易平台，再到天猫B2C品牌平台，最终成为数字经济生态",
+        "wedge": "以B2B信息服务为切入点，逐步建立信任和生态"
+      },
+      "execution": {
+        "techStack": "Java后端架构、阿里云基础设施、大数据平台、支付系统",
+        "phase1": "MVP - B2B信息平台，帮助中国供应商对接海外买家",
+        "phase2": "验证 - 淘宝C2C平台 + 支付宝解决信任问题",
+        "phase3": "扩张 - 天猫B2C + 阿里云技术输出 + 投资并购",
+        "phase4": "护城河 - 构建数字经济生态（电商、支付、物流、云、金融）"
+      },
+      "monetization": {
+        "revenueStreams": "1. 电商佣金（淘宝/天猫）\n2. 广告收入（直通车等）\n3. 支付宝/蚂蚁金服\n4. 阿里云服务\n5. 菜鸟物流\n6. 投资收益",
+        "profitAnalysis": "广告和佣金业务毛利率高；阿里云逐步实现规模化盈利；2023年营收约8000亿人民币",
+        "exitLogic": "2007年香港上市，2014年纽约上市，成为全球最大IPO之一，市值最高超过8000亿美元"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "约10000亿人民币（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 5,
+      "potentialScale": 5
+    },
+    {
+      "id": 8,
+      "title": "字节跳动 - 短视频帝国",
+      "logo": "📱",
+      "category": "互联网",
+      "tags": [
+        "短视频",
+        "抖音",
+        "TikTok",
+        "算法推荐",
+        "全球化"
+      ],
+      "caseType": "success",
+      "productType": "应用",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "字节跳动",
+        "location": "中国 北京",
+        "coreTech": "算法推荐、短视频、人工智能、大数据",
+        "totalFunding": "多轮融资，估值超过4000亿美元",
+        "investors": "红杉、软银、KPCB",
+        "vision": "用人工智能重新定义信息分发",
+        "founded": "2012",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "1. 算法推荐技术领先\n2. 从今日头条到抖音的产品演进\n3. 全球化成功（TikTok）\n4. 短视频赛道卡位精准\n5. 持续的产品创新",
+        "marketStrategy": "从图文信息（今日头条）切入，利用算法推荐建立优势，再扩展到短视频（抖音），最后全球化（TikTok）",
+        "businessModel": "广告收入 + 直播打赏 + 电商佣金 + 游戏",
+        "techInnovation": "1. 推荐算法持续优化\n2. 短视频拍摄和编辑工具\n3. 全球化多语言支持\n4. 直播技术\n5. 大数据处理能力",
+        "growthStrategy": "1. 算法推荐建立壁垒\n2. 从图文到视频的演进\n3. 出海战略成功\n4. 生态化布局（电商、游戏、教育等）",
+        "successLessons": "1. 算法是信息分发的核心\n2. 移动互联网的视频化趋势\n3. 全球化的重要性\n4. 持续产品迭代\n5. 技术驱动产品"
+      },
+      "assessment": {
+        "marketPotential": "短视频和信息分发是巨大市场，还有全球化和元宇宙等机会",
+        "difficultyAnalysis": "算法技术壁垒高，监管风险大，内容审核成本高",
+        "scalabilityAnalysis": "算法推荐规模效应强，但内容和监管成本随规模上升"
+      },
+      "rebuild": {
+        "pivotConcept": "从信息分发到内容生态平台",
+        "insight": "用户不仅需要图文信息，更需要视频、直播、互动等富媒体体验",
+        "productRefactor": "从今日头条图文推荐，到抖音短视频，再到直播电商，最终成为内容生态",
+        "wedge": "以算法推荐为核心，从图文切入"
+      },
+      "execution": {
+        "techStack": "Python/Go后端、机器学习平台、大数据处理、CDN加速",
+        "phase1": "MVP - 今日头条，图文信息推荐",
+        "phase2": "验证 - 抖音短视频，验证视频推荐",
+        "phase3": "扩张 - TikTok全球化，验证国际化",
+        "phase4": "护城河 - 内容生态（直播、电商、游戏、教育）"
+      },
+      "monetization": {
+        "revenueStreams": "1. 信息流广告\n2. 短视频广告\n3. 直播打赏\n4. 电商佣金\n5. 游戏收入\n6. 其他增值服务",
+        "profitAnalysis": "广告业务毛利率高；2023年营收超过800亿美元，成为全球最有价值的独角兽",
+        "exitLogic": "未上市，估值超过4000亿美元，是全球最大的独角兽公司"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "约1000亿美元（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 5,
+      "potentialScale": 5
+    },
+    {
+      "id": 9,
+      "title": "美团 - 本地生活服务之王",
+      "logo": "🏪",
+      "category": "本地生活",
+      "tags": [
+        "外卖",
+        "团购",
+        "到店",
+        "酒旅",
+        "即时配送"
+      ],
+      "caseType": "success",
+      "productType": "应用",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "美团",
+        "location": "中国 北京",
+        "coreTech": "即时配送调度、地推铁军、大数据分析",
+        "totalFunding": "多轮融资，腾讯等战略投资",
+        "investors": "腾讯、红杉、阿里巴巴",
+        "vision": "帮大家吃得更好，生活更好",
+        "founded": "2010",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "1. 千团大战中胜出\n2. 地推铁军执行力强\n3. 外卖+到店+酒旅协同\n4. 即时配送网络\n5. 腾讯生态支持",
+        "marketStrategy": "从团购切入，到外卖建立壁垒，再到店、酒旅、闪购等多品类扩展，构建本地生活生态",
+        "businessModel": "外卖佣金 + 到店佣金 + 酒旅佣金 + 配送费 + 广告 + 供应链服务",
+        "techInnovation": "1. 即时配送调度算法\n2. 地推管理系统\n3. 商家SaaS工具\n4. 大数据分析平台\n5. 无人配送探索",
+        "growthStrategy": "1. 千团大战中通过执行力取胜\n2. 外卖建立高频刚需\n3. 到店和酒旅变现\n4. 闪购等新品类扩展\n5. 供应链服务",
+        "successLessons": "1. 地推执行力是O2O关键\n2. 高频打低频\n3. 本地生活需要多品类协同\n4. 配送网络是壁垒\n5. 巨头生态支持很重要"
+      },
+      "assessment": {
+        "marketPotential": "本地生活服务市场巨大，从餐饮到零售、服务的边界不断扩展",
+        "difficultyAnalysis": "地推成本高，配送成本高，竞争激烈，需要持续补贴",
+        "scalabilityAnalysis": "规模效应明显，但配送边际成本下降较慢"
+      },
+      "rebuild": {
+        "pivotConcept": "从团购平台到本地生活服务基础设施",
+        "insight": "用户不仅需要团购，更需要外卖、到店、酒旅、零售等一站式本地生活服务",
+        "productRefactor": "从团购，到外卖，再到店、酒旅、闪购，最终成为本地生活生态",
+        "wedge": "以团购为切入点，外卖建立高频刚需"
+      },
+      "execution": {
+        "techStack": "Java/Go后端、即时配送调度系统、地推管理工具、大数据平台",
+        "phase1": "MVP - 团购平台，千团大战",
+        "phase2": "验证 - 外卖业务，验证即时配送",
+        "phase3": "扩张 - 到店+酒旅+闪购多品类",
+        "phase4": "护城河 - 本地生活生态"
+      },
+      "monetization": {
+        "revenueStreams": "1. 外卖佣金\n2. 到店佣金\n3. 酒旅佣金\n4. 配送费\n5. 广告\n6. 供应链服务",
+        "profitAnalysis": "佣金收入稳定增长，配送效率提升；2023年营收超过2500亿人民币，实现盈利",
+        "exitLogic": "2018年香港上市，市值最高超过2万亿港元"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "约2500亿人民币（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 5,
+      "potentialScale": 5
+    },
+    {
+      "id": 10,
+      "title": "Theranos - 滴血成金的骗局",
+      "logo": "💉",
+      "category": "医疗",
+      "tags": [
+        "医疗科技",
+        "血液检测",
+        "硅谷",
+        "骗局",
+        "SEC"
+      ],
+      "caseType": "failure",
+      "productType": "硬件",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "Theranos",
+        "location": "美国 硅谷",
+        "coreTech": "微型血液检测技术（声称）",
+        "totalFunding": "超过9亿美元",
+        "investors": "默多克、沃尔顿家族、甲骨文创始人",
+        "vision": "用一滴血改变医疗检测",
+        "founded": "2003",
+        "closed": "2018",
+        "cashBurned": "9亿美元+"
+      },
+      "success": {
+        "successFactor": "",
+        "marketStrategy": "",
+        "businessModel": "",
+        "techInnovation": "",
+        "growthStrategy": "",
+        "successLessons": ""
+      },
+      "assessment": {
+        "marketPotential": "血液检测市场巨大，痛点真实存在",
+        "difficultyAnalysis": "医疗技术研发难度大，监管要求高",
+        "scalabilityAnalysis": "一旦技术验证通过，规模效应强"
+      },
+      "rebuild": {
+        "pivotConcept": "从革命式创新到渐进式改进",
+        "insight": "医疗技术需要严谨的科学验证，不能急于求成",
+        "productRefactor": "先从简单检测项目做起，逐步验证技术，再扩展到更多项目",
+        "wedge": "选择一两个检测项目进行严谨验证"
+      },
+      "execution": {
+        "techStack": "实验室设备、医学检验技术",
+        "phase1": "MVP - 选择1-2个检测项目，严谨验证",
+        "phase2": "验证 - 通过FDA审批，建立可信度",
+        "phase3": "扩张 - 逐步增加检测项目",
+        "phase4": "护城河 - 建立技术和监管壁垒"
+      },
+      "monetization": {
+        "revenueStreams": "1. 检测服务收费\n2. 设备销售\n3. 专利授权",
+        "profitAnalysis": "检测服务利润率高，但需要先通过监管审批",
+        "exitLogic": "如果技术验证通过，可能被大型医疗公司收购"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "",
+      "lossAmount": "9亿美元+",
+      "marketPotentialScore": 5,
+      "potentialScale": 5,
+      "rebuildPotential": 4
+    },
+    {
+      "id": 11,
+      "title": "FTX - 加密货币帝国的崩塌",
+      "logo": "💎",
+      "category": "金融",
+      "tags": [
+        "加密货币",
+        "交易所",
+        "破产",
+        "欺诈",
+        "监管"
+      ],
+      "caseType": "failure",
+      "productType": "平台",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "FTX",
+        "location": "巴哈马",
+        "coreTech": "加密货币交易所技术",
+        "totalFunding": "超过20亿美元",
+        "investors": "红杉、软银、淡马锡",
+        "vision": "成为全球领先的加密货币交易所",
+        "founded": "2019",
+        "closed": "2022",
+        "cashBurned": "数十亿美元"
+      },
+      "success": {
+        "successFactor": "",
+        "marketStrategy": "",
+        "businessModel": "",
+        "techInnovation": "",
+        "growthStrategy": "",
+        "successLessons": ""
+      },
+      "assessment": {
+        "marketPotential": "加密货币交易市场存在，但监管风险高",
+        "difficultyAnalysis": "监管不确定性高，需要极强的风控",
+        "scalabilityAnalysis": "交易所规模效应强，但需要极强的合规能力"
+      },
+      "rebuild": {
+        "pivotConcept": "从激进扩张到合规经营",
+        "insight": "金融企业需要把合规和风控放在首位",
+        "productRefactor": "建立严格的风控和合规体系，用户资产隔离，透明运营",
+        "wedge": "合规和风控"
+      },
+      "execution": {
+        "techStack": "交易所系统、冷钱包存储、风控系统",
+        "phase1": "MVP - 建立合规框架，用户资产隔离",
+        "phase2": "验证 - 透明运营，定期审计",
+        "phase3": "扩张 - 在合规前提下稳步发展",
+        "phase4": "护城河 - 建立监管和风控壁垒"
+      },
+      "monetization": {
+        "revenueStreams": "1. 交易手续费\n2. 上币费\n3. 其他增值服务",
+        "profitAnalysis": "交易所手续费收入稳定，但需要风控成本",
+        "exitLogic": "如果合规运营，可能被收购或上市"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "",
+      "lossAmount": "数十亿美元",
+      "marketPotentialScore": 3,
+      "potentialScale": 5,
+      "rebuildPotential": 4
+    },
+    {
+      "id": 12,
+      "title": "WeWork - 共享办公泡沫",
+      "logo": "🏢",
+      "category": "房地产",
+      "tags": [
+        "共享办公",
+        "软银",
+        "IPO失败",
+        "估值泡沫",
+        "治理问题"
+      ],
+      "caseType": "failure",
+      "productType": "服务",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "WeWork",
+        "location": "美国 纽约",
+        "coreTech": "共享办公空间运营",
+        "totalFunding": "超过200亿美元",
+        "investors": "软银愿景基金",
+        "vision": "打造空间即服务平台",
+        "founded": "2010",
+        "closed": "",
+        "cashBurned": "数十亿美元"
+      },
+      "success": {
+        "successFactor": "",
+        "marketStrategy": "",
+        "businessModel": "",
+        "techInnovation": "",
+        "growthStrategy": "",
+        "successLessons": ""
+      },
+      "assessment": {
+        "marketPotential": "灵活办公需求真实存在",
+        "difficultyAnalysis": "重资产模式，资金需求大，需要平衡扩张和盈利",
+        "scalabilityAnalysis": "规模效应有限，边际成本下降慢"
+      },
+      "rebuild": {
+        "pivotConcept": "从科技公司到房地产服务公司",
+        "insight": "共享办公本质是房地产服务，需要谨慎的财务纪律",
+        "productRefactor": "放缓扩张速度，专注于盈利能力和运营效率",
+        "wedge": "优质地段和运营效率"
+      },
+      "execution": {
+        "techStack": "空间管理系统、会员系统",
+        "phase1": "MVP - 在核心城市验证模式",
+        "phase2": "验证 - 实现单体盈利",
+        "phase3": "扩张 - 在盈利前提下稳步扩张",
+        "phase4": "护城河 - 建立品牌和运营壁垒"
+      },
+      "monetization": {
+        "revenueStreams": "1. 会员费\n2. 场地租赁\n3. 增值服务",
+        "profitAnalysis": "需要控制租金成本和扩张速度，才能实现盈利",
+        "exitLogic": "如果实现可持续盈利，可能被收购或重新上市"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "",
+      "lossAmount": "数十亿美元",
+      "marketPotentialScore": 3,
+      "potentialScale": 2,
+      "rebuildPotential": 4
+    },
+    {
+      "id": 13,
+      "title": "京东 - 电商自营之路",
+      "logo": "📦",
+      "category": "电商",
+      "tags": [
+        "自营电商",
+        "物流",
+        "3C数码",
+        "京东物流",
+        "品质电商"
+      ],
+      "caseType": "success",
+      "productType": "平台",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "京东集团",
+        "location": "中国 北京",
+        "coreTech": "自营电商、物流体系、供应链管理",
+        "totalFunding": "多轮融资，腾讯战略投资",
+        "investors": "腾讯、红杉、高瓴",
+        "vision": "成为全球最值得信赖的企业",
+        "founded": "1998",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "1. 坚持自营，建立品质信任\n2. 自建物流，提升用户体验\n3. 3C数码切入口碑\n4. 腾讯生态支持\n5. 供应链管理能力强",
+        "marketStrategy": "从3C数码自营切入，建立品质和物流优势，再扩展到全品类，与淘宝天猫形成差异化",
+        "businessModel": "自营销售收入 + 第三方平台佣金 + 物流服务 + 广告 + 金融科技",
+        "techInnovation": "1. 自营供应链管理\n2. 自建物流仓储体系\n3. 配送调度系统\n4. 品质控制体系\n5. 无人仓库/配送探索",
+        "growthStrategy": "1. 3C数码建立口碑\n2. 自建物流建立壁垒\n3. 全品类扩展\n4. 京东物流独立发展\n5. 技术输出",
+        "successLessons": "1. 品质信任是电商的另一核心\n2. 物流体验是差异化竞争点\n3. 自营和平台可以结合\n4. 重资产也能建立壁垒\n5. 差异化竞争很重要"
+      },
+      "assessment": {
+        "marketPotential": "品质电商和即时配送市场巨大",
+        "difficultyAnalysis": "自建物流成本高，需要巨大投入",
+        "scalabilityAnalysis": "物流网络规模效应强，但需要时间和资本"
+      },
+      "rebuild": {
+        "pivotConcept": "从3C数码零售商到品质电商平台",
+        "insight": "用户不仅需要低价，更需要品质、正品、快速配送",
+        "productRefactor": "从3C数码自营，到全品类自营，再到开放平台+物流服务",
+        "wedge": "3C数码正品 + 快速配送"
+      },
+      "execution": {
+        "techStack": "供应链管理系统、WMS仓储系统、TMS运输系统、大数据分析",
+        "phase1": "MVP - 3C数码自营，建立信任",
+        "phase2": "验证 - 自建物流，验证配送体验",
+        "phase3": "扩张 - 全品类扩展 + 开放平台",
+        "phase4": "护城河 - 品质电商 + 物流网络"
+      },
+      "monetization": {
+        "revenueStreams": "1. 自营销售收入\n2. 第三方平台佣金\n3. 物流服务\n4. 广告\n5. 金融科技",
+        "profitAnalysis": "自营利润率较低，物流需要规模效应；2023年营收超过1万亿人民币，实现盈利",
+        "exitLogic": "2014年纳斯达克上市，2020年香港二次上市，市值最高超过1万亿港元"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-25T07:15:40.672Z",
+      "profitAmount": "约10000亿人民币（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 5,
+      "potentialScale": 5,
+      "views": {
+        "total": 2,
+        "weekly": {
+          "13": 2
+        },
+        "monthly": {
+          "2": 2
+        },
+        "lastViewed": "2026-03-25T07:15:40.672Z"
+      }
+    },
+    {
+      "id": 14,
+      "title": "拼多多 - 社交电商奇迹",
+      "logo": "🛍️",
+      "category": "电商",
+      "tags": [
+        "社交电商",
+        "拼团",
+        "下沉市场",
+        "农业",
+        "性价比"
+      ],
+      "caseType": "success",
+      "productType": "应用",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "拼多多",
+        "location": "中国 上海",
+        "coreTech": "社交拼团、算法推荐、农业供应链",
+        "totalFunding": "多轮融资，腾讯等投资",
+        "investors": "腾讯、红杉、高瓴",
+        "vision": "多实惠，多乐趣",
+        "founded": "2015",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "1. 抓住下沉市场机遇\n2. 社交拼团创新获客\n3. 农业供应链切入\n4. 算法推荐精准\n5. 腾讯生态支持",
+        "marketStrategy": "从下沉市场和农业切入，通过社交拼团低成本获客，与淘宝京东形成差异化，再向上渗透",
+        "businessModel": "交易佣金 + 广告 + 品牌推广 + 农业供应链服务",
+        "techInnovation": "1. 社交拼团机制\n2. 算法推荐精准匹配\n3. 农产品上行供应链\n4. 百亿补贴营销\n5. 多多买菜社区团购",
+        "growthStrategy": "1. 社交拼团低成本获客\n2. 农产品建立差异化\n3. 百亿补贴向上渗透\n4. 多多买菜扩展\n5. 品牌升级",
+        "successLessons": "1. 下沉市场依然有巨大机会\n2. 社交裂变是低成本获客方式\n3. 差异化竞争很重要\n4. 农产品是电商蓝海\n5. 后来者可以弯道超车"
+      },
+      "assessment": {
+        "marketPotential": "下沉市场和农产品电商巨大",
+        "difficultyAnalysis": "需要解决信任问题，品牌形象升级难",
+        "scalabilityAnalysis": "社交裂变规模效应强，算法推荐边际成本低"
+      },
+      "rebuild": {
+        "pivotConcept": "从淘宝特卖版到社交电商平台",
+        "insight": "下沉市场用户不仅需要便宜，还需要社交乐趣和真实惠",
+        "productRefactor": "从拼团游戏，到农产品电商，再到全品类平台，最终到品质升级",
+        "wedge": "社交拼团 + 农产品"
+      },
+      "execution": {
+        "techStack": "社交拼团系统、算法推荐、供应链管理",
+        "phase1": "MVP - 拼团游戏，验证社交裂变",
+        "phase2": "验证 - 农产品上行，验证供应链",
+        "phase3": "扩张 - 全品类 + 百亿补贴",
+        "phase4": "护城河 - 社交电商 + 农业供应链"
+      },
+      "monetization": {
+        "revenueStreams": "1. 交易佣金\n2. 广告\n3. 品牌推广\n4. 多多买菜\n5. 农业服务",
+        "profitAnalysis": "佣金和广告收入增长快；2023年营收超过2300亿人民币，实现盈利",
+        "exitLogic": "2018年纳斯达克上市，市值最高超过2000亿美元"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "约2300亿人民币（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 5,
+      "potentialScale": 5
+    },
+    {
+      "id": 15,
+      "title": "小米 - 性价比之王",
+      "logo": "📱",
+      "category": "智能硬件",
+      "tags": [
+        "智能手机",
+        "性价比",
+        "MIUI",
+        "生态链",
+        "IoT"
+      ],
+      "caseType": "success",
+      "productType": "硬件",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "小米集团",
+        "location": "中国 北京",
+        "coreTech": "智能手机、MIUI、生态链、IoT",
+        "totalFunding": "多轮融资",
+        "investors": "晨兴、启明、IDG",
+        "vision": "让全球每个人都能享受科技带来的美好生活",
+        "founded": "2010",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "1. 性价比切入智能手机市场\n2. MIUI用户体验优秀\n3. 互联网模式做硬件\n4. 生态链布局IoT\n5. 粉丝社区运营",
+        "marketStrategy": "从MIUI系统切入，积累用户，再推出小米手机，性价比建立口碑，再生态链布局IoT",
+        "businessModel": "硬件微利 + 互联网服务 + IoT生态 + 新零售",
+        "techInnovation": "1. MIUI系统快速迭代\n2. 高性价比硬件设计\n3. 生态链投资模式\n4. IoT互联互通\n5. 线上线下新零售",
+        "growthStrategy": "1. MIUI积累用户\n2. 小米手机建立品牌\n3. 生态链布局IoT\n4. 国际化扩张\n5. 汽车等新业务",
+        "successLessons": "1. 性价比是核武器\n2. 软件硬件服务结合\n3. 生态链模式创新\n4. 粉丝社区很重要\n5. 用互联网思维做硬件"
+      },
+      "assessment": {
+        "marketPotential": "智能手机和IoT市场巨大",
+        "difficultyAnalysis": "硬件竞争激烈，需要持续研发投入",
+        "scalabilityAnalysis": "硬件规模效应强，生态协同效应明显"
+      },
+      "rebuild": {
+        "pivotConcept": "从手机公司到科技生态公司",
+        "insight": "用户不仅需要手机，更需要完整的智能生活体验",
+        "productRefactor": "从MIUI，到小米手机，再到生态链IoT，最终成为科技生态",
+        "wedge": "MIUI + 高性价比手机"
+      },
+      "execution": {
+        "techStack": "Android系统定制、硬件设计、IoT连接、电商平台",
+        "phase1": "MVP - MIUI系统，积累用户",
+        "phase2": "验证 - 小米手机，验证性价比",
+        "phase3": "扩张 - 生态链布局 + 国际化",
+        "phase4": "护城河 - 科技生态"
+      },
+      "monetization": {
+        "revenueStreams": "1. 智能手机\n2. IoT硬件\n3. 互联网服务\n4. 新零售\n5. 新业务",
+        "profitAnalysis": "硬件微利，互联网服务利润率高；2023年营收超过2800亿人民币",
+        "exitLogic": "2018年香港上市，市值最高超过8000亿港元"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "约2800亿人民币（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 5,
+      "potentialScale": 5
+    },
+    {
+      "id": 16,
+      "title": "Ofo小黄车 - 共享经济泡沫",
+      "logo": "🚲",
+      "category": "出行",
+      "tags": [
+        "共享单车",
+        "共享经济",
+        "押金危机",
+        "资金链断裂",
+        "恶性竞争"
+      ],
+      "caseType": "failure",
+      "productType": "硬件",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "Ofo",
+        "location": "中国 北京",
+        "coreTech": "共享单车运营、智能锁",
+        "totalFunding": "超过20亿美元",
+        "investors": "滴滴、阿里、红杉、经纬",
+        "vision": "用单车连接城市",
+        "founded": "2014",
+        "closed": "2019",
+        "cashBurned": "数十亿美元"
+      },
+      "success": {
+        "successFactor": "",
+        "marketStrategy": "",
+        "businessModel": "",
+        "techInnovation": "",
+        "growthStrategy": "",
+        "successLessons": ""
+      },
+      "assessment": {
+        "marketPotential": "短途出行需求真实存在",
+        "difficultyAnalysis": "重资产、高损耗、恶性竞争",
+        "scalabilityAnalysis": "规模效应有限，边际成本下降慢"
+      },
+      "rebuild": {
+        "pivotConcept": "从快速扩张到精细化运营",
+        "insight": "共享单车需要精细化运营，不能只靠烧钱",
+        "productRefactor": "放缓扩张速度，专注于运营效率、车辆维护、成本控制",
+        "wedge": "运营效率和车辆质量"
+      },
+      "execution": {
+        "techStack": "智能锁、调度系统、车辆管理",
+        "phase1": "MVP - 在校园验证模式",
+        "phase2": "验证 - 实现单体盈利",
+        "phase3": "扩张 - 在盈利前提下扩张",
+        "phase4": "护城河 - 建立运营壁垒"
+      },
+      "monetization": {
+        "revenueStreams": "1. 骑行费\n2. 广告\n3. 其他增值服务",
+        "profitAnalysis": "需要控制车辆损耗和运营成本，才能盈利",
+        "exitLogic": "如果实现可持续运营，可能被收购"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "",
+      "lossAmount": "数十亿美元",
+      "marketPotentialScore": 3,
+      "potentialScale": 2,
+      "rebuildPotential": 4
+    },
+    {
+      "id": 17,
+      "title": "Luckin瑞幸咖啡 - 从造假到重生",
+      "logo": "☕",
+      "category": "消费",
+      "tags": [
+        "咖啡",
+        "新零售",
+        "财务造假",
+        "退市",
+        "重生"
+      ],
+      "caseType": "failure",
+      "productType": "服务",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "瑞幸咖啡",
+        "location": "中国 厦门",
+        "coreTech": "咖啡新零售、APP运营",
+        "totalFunding": "多轮融资，IPO融资",
+        "investors": "愉悦资本、大钲资本、GIC",
+        "vision": "成为中国人的咖啡",
+        "founded": "2017",
+        "closed": "",
+        "cashBurned": "数十亿美元"
+      },
+      "success": {
+        "successFactor": "",
+        "marketStrategy": "",
+        "businessModel": "",
+        "techInnovation": "",
+        "growthStrategy": "",
+        "successLessons": ""
+      },
+      "assessment": {
+        "marketPotential": "中国咖啡市场巨大",
+        "difficultyAnalysis": "需要平衡扩张和盈利，星巴克竞争",
+        "scalabilityAnalysis": "规模效应明显，但需要供应链能力"
+      },
+      "rebuild": {
+        "pivotConcept": "从资本驱动到业务驱动",
+        "insight": "咖啡生意需要回归商业本质，不能只靠烧钱和造假",
+        "productRefactor": "财务造假曝光后，更换管理层，聚焦盈利，关店止损，优化供应链",
+        "wedge": "产品和供应链"
+      },
+      "execution": {
+        "techStack": "APP系统、供应链管理、门店运营",
+        "phase1": "MVP - 验证咖啡需求",
+        "phase2": "验证 - 实现单店盈利",
+        "phase3": "扩张 - 在盈利前提下扩张",
+        "phase4": "护城河 - 建立品牌和供应链壁垒"
+      },
+      "monetization": {
+        "revenueStreams": "1. 咖啡销售\n2. 周边产品\n3. 加盟",
+        "profitAnalysis": "需要控制门店成本和补贴，才能盈利",
+        "exitLogic": "退市后如果实现盈利，可能重新上市或被收购"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "",
+      "lossAmount": "数十亿美元",
+      "marketPotentialScore": 5,
+      "potentialScale": 5,
+      "rebuildPotential": 4
+    },
+    {
+      "id": 18,
+      "title": "网易 - 游戏与教育的平衡",
+      "logo": "📧",
+      "category": "互联网",
+      "tags": [
+        "游戏",
+        "邮箱",
+        "网易云音乐",
+        "教育",
+        "电商"
+      ],
+      "caseType": "success",
+      "productType": "应用",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "网易",
+        "location": "中国 杭州",
+        "coreTech": "游戏、邮箱、在线教育、音乐",
+        "totalFunding": "早期融资后上市",
+        "investors": "早期机构投资者",
+        "vision": "网聚人的力量",
+        "founded": "1997",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "1. 邮箱业务建立根基\n2. 游戏业务现金流\n3. 产品打磨能力强\n4. 多元化布局\n5. 稳健经营",
+        "marketStrategy": "从邮箱切入，建立用户基础，再扩展到游戏、音乐、教育、电商等，多元化布局",
+        "businessModel": "游戏收入 + 邮箱服务 + 在线教育 + 音乐会员 + 电商 + 广告",
+        "techInnovation": "1. 邮箱技术\n2. 游戏自研能力\n3. 网易云音乐推荐\n4. 在线教育\n5. 电商运营",
+        "growthStrategy": "1. 邮箱建立用户\n2. 游戏成为现金牛\n3. 音乐/教育/电商多元化\n4. 游戏出海\n5. 稳健发展",
+        "successLessons": "1. 产品打磨很重要\n2. 现金流业务是基础\n3. 多元化可以抗风险\n4. 稳健经营不易犯错\n5. 游戏是好生意"
+      },
+      "assessment": {
+        "marketPotential": "游戏、音乐、教育市场都很大",
+        "difficultyAnalysis": "需要多个业务线同时成功，多元化管理难",
+        "scalabilityAnalysis": "游戏规模效应强，多元化抗风险"
+      },
+      "rebuild": {
+        "pivotConcept": "从门户到多元化科技公司",
+        "insight": "用户有多样需求，单一业务有风险",
+        "productRefactor": "从邮箱，到游戏，再到音乐、教育、电商，最终成为多元化公司",
+        "wedge": "邮箱 + 游戏"
+      },
+      "execution": {
+        "techStack": "邮件系统、游戏引擎、音乐推荐、教育系统",
+        "phase1": "MVP - 邮箱业务，建立用户",
+        "phase2": "验证 - 游戏业务，验证现金流",
+        "phase3": "扩张 - 音乐/教育/电商多元化",
+        "phase4": "护城河 - 多元化布局"
+      },
+      "monetization": {
+        "revenueStreams": "1. 游戏\n2. 在线教育\n3. 音乐会员\n4. 邮箱服务\n5. 电商\n6. 广告",
+        "profitAnalysis": "游戏利润率高，教育和音乐增长快；2023年营收超过2500亿人民币",
+        "exitLogic": "2000年纳斯达克上市，2020年香港二次上市，市值最高超过8000亿港元"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "约2500亿人民币（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 4,
+      "potentialScale": 5
+    },
+    {
+      "id": 19,
+      "title": "百度 - 搜索巨头的转型",
+      "logo": "🔍",
+      "category": "互联网",
+      "tags": [
+        "搜索",
+        "AI",
+        "自动驾驶",
+        "广告",
+        "All in AI"
+      ],
+      "caseType": "success",
+      "productType": "平台",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "百度",
+        "location": "中国 北京",
+        "coreTech": "搜索引擎、AI、自动驾驶",
+        "totalFunding": "早期融资后上市",
+        "investors": "德丰杰、IDG",
+        "vision": "用科技让复杂的世界更简单",
+        "founded": "2000",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "1. 搜索技术领先\n2. 广告变现模式成熟\n3. 技术基因强\n4. AI提前布局\n5. 自动驾驶探索",
+        "marketStrategy": "从搜索切入，建立技术壁垒，广告变现，再布局AI和自动驾驶，寻求第二增长曲线",
+        "businessModel": "搜索广告 + AI服务 + 自动驾驶 + 云服务 + 其他",
+        "techInnovation": "1. 中文搜索技术\n2. 百度广告系统\n3. AI技术（飞桨、文心一言）\n4. 自动驾驶（Apollo）\n5. 百度云",
+        "growthStrategy": "1. 搜索建立壁垒\n2. 广告变现\n3. AI布局\n4. 自动驾驶探索\n5. 寻找第二曲线",
+        "successLessons": "1. 技术壁垒很重要\n2. 搜索广告是好生意\n3. AI需要提前布局\n4. 第二曲线难找\n5. 技术基因有优势"
+      },
+      "assessment": {
+        "marketPotential": "搜索、AI、自动驾驶市场巨大",
+        "difficultyAnalysis": "搜索竞争激烈，AI和自动驾驶投入大",
+        "scalabilityAnalysis": "搜索和AI规模效应强，但自动驾驶需要时间"
+      },
+      "rebuild": {
+        "pivotConcept": "从搜索公司到AI公司",
+        "insight": "搜索之后，AI是更大的机会",
+        "productRefactor": "从搜索，到广告，再到AI和自动驾驶，最终成为AI公司",
+        "wedge": "搜索技术 + AI"
+      },
+      "execution": {
+        "techStack": "搜索引擎、广告系统、AI框架、自动驾驶",
+        "phase1": "MVP - 中文搜索，验证技术",
+        "phase2": "验证 - 广告变现，验证模式",
+        "phase3": "扩张 - AI布局，探索自动驾驶",
+        "phase4": "护城河 - 建立AI壁垒"
+      },
+      "monetization": {
+        "revenueStreams": "1. 搜索广告\n2. AI服务\n3. 云服务\n4. 自动驾驶\n5. 其他",
+        "profitAnalysis": "广告利润率高，AI需要投入；2023年营收超过1300亿人民币",
+        "exitLogic": "2005年纳斯达克上市，2024年香港二次上市，市值最高超过1000亿美元"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "约1300亿人民币（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 5,
+      "potentialScale": 5
+    },
+    {
+      "id": 20,
+      "title": "B站 - 年轻人的社区",
+      "logo": "📺",
+      "category": "内容",
+      "tags": [
+        "视频",
+        "弹幕",
+        "ACG",
+        "社区",
+        "UP主"
+      ],
+      "caseType": "success",
+      "productType": "平台",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "哔哩哔哩",
+        "location": "中国 上海",
+        "coreTech": "视频平台、弹幕、社区运营",
+        "totalFunding": "多轮融资，腾讯阿里投资",
+        "investors": "腾讯、阿里、索尼",
+        "vision": "Z世代的文化社区",
+        "founded": "2009",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "1. ACG切入精准\n2. 弹幕文化创新\n3. 社区氛围好\n4. UP主生态\n5. 年轻人定位",
+        "marketStrategy": "从ACG二次元切入，建立社区氛围和弹幕文化，再扩展到全品类内容，成为年轻人的文化社区",
+        "businessModel": "游戏收入 + 广告 + 会员 + 直播 + 电商",
+        "techInnovation": "1. 弹幕技术\n2. 社区运营\n3. UP主生态\n4. 视频推荐\n5. 直播技术",
+        "growthStrategy": "1. ACG建立社区\n2. 弹幕建立文化\n3. UP主生态\n4. 内容破圈\n5. 多元化变现",
+        "successLessons": "1. 社区氛围很重要\n2. 弹幕是创新点\n3. 年轻人市场巨大\n4. UP主是核心资产\n5. 垂直切入再破圈"
+      },
+      "assessment": {
+        "marketPotential": "年轻人内容和社区市场巨大",
+        "difficultyAnalysis": "需要平衡社区氛围和商业化",
+        "scalabilityAnalysis": "社区规模效应强，但内容和运营成本高"
+      },
+      "rebuild": {
+        "pivotConcept": "从ACG社区到年轻人文化平台",
+        "insight": "年轻人不仅需要ACG，更需要多元内容和社区认同",
+        "productRefactor": "从ACG，到全品类内容，再到社区生态，最终成为年轻人文化平台",
+        "wedge": "ACG + 弹幕社区"
+      },
+      "execution": {
+        "techStack": "视频平台、弹幕系统、社区运营",
+        "phase1": "MVP - ACG社区，验证需求",
+        "phase2": "验证 - 弹幕文化，建立氛围",
+        "phase3": "扩张 - 全品类内容 + UP主生态",
+        "phase4": "护城河 - 年轻人文化社区"
+      },
+      "monetization": {
+        "revenueStreams": "1. 游戏\n2. 广告\n3. 会员\n4. 直播\n5. 电商",
+        "profitAnalysis": "游戏利润率高，广告和会员增长快；2023年营收超过220亿人民币",
+        "exitLogic": "2018年纳斯达克上市，2021年香港二次上市，市值最高超过500亿美元"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "约220亿人民币（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 5,
+      "potentialScale": 5
+    },
+    {
+      "id": 21,
+      "title": "Quibi - 短视频流媒体的失败",
+      "logo": "🎬",
+      "category": "内容",
+      "tags": [
+        "短视频",
+        "流媒体",
+        "好莱坞",
+        "付费",
+        "疫情"
+      ],
+      "caseType": "failure",
+      "productType": "应用",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "Quibi",
+        "location": "美国 洛杉矶",
+        "coreTech": "短视频流媒体、Turnstyle技术",
+        "totalFunding": "超过17亿美元",
+        "investors": "迪士尼、索尼、NBC环球、华纳",
+        "vision": "重新定义移动视频",
+        "founded": "2018",
+        "closed": "2020",
+        "cashBurned": "17亿美元+"
+      },
+      "success": {
+        "successFactor": "",
+        "marketStrategy": "",
+        "businessModel": "",
+        "techInnovation": "",
+        "growthStrategy": "",
+        "successLessons": ""
+      },
+      "assessment": {
+        "marketPotential": "短视频市场巨大，但竞争激烈",
+        "difficultyAnalysis": "内容成本高，用户习惯难改变，竞争激烈",
+        "scalabilityAnalysis": "流媒体规模效应强，但内容成本高"
+      },
+      "rebuild": {
+        "pivotConcept": "从好莱坞自制到内容聚合",
+        "insight": "用户需要的是短视频，不是移动版好莱坞",
+        "productRefactor": "放弃自制，改为聚合和用户生成内容，降低成本",
+        "wedge": "移动短视频"
+      },
+      "execution": {
+        "techStack": "视频流媒体、CDN、推荐算法",
+        "phase1": "MVP - 验证短视频需求",
+        "phase2": "验证 - 验证付费意愿",
+        "phase3": "扩张 - 控制成本下扩张",
+        "phase4": "护城河 - 建立内容或技术壁垒"
+      },
+      "monetization": {
+        "revenueStreams": "1. 订阅费\n2. 广告\n3. 其他",
+        "profitAnalysis": "需要控制内容成本，才能盈利",
+        "exitLogic": "如果调整模式，可能被收购"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "",
+      "lossAmount": "17亿美元+",
+      "marketPotentialScore": 5,
+      "potentialScale": 5,
+      "rebuildPotential": 4
+    },
+    {
+      "id": 22,
+      "title": "贝壳找房 - 房产中介平台",
+      "logo": "🏠",
+      "category": "房地产",
+      "tags": [
+        "房产",
+        "中介",
+        "链家",
+        "真房源",
+        "ACN"
+      ],
+      "caseType": "success",
+      "productType": "平台",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "贝壳找房",
+        "location": "中国 北京",
+        "coreTech": "房产平台、真房源、ACN合作网络",
+        "totalFunding": "多轮融资，腾讯投资",
+        "investors": "腾讯、红杉、高瓴",
+        "vision": "为美好生活找房",
+        "founded": "2017",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "1. 链家基础好\n2. 真房源建立信任\n3. ACN合作网络\n4. 技术投入大\n5. 腾讯生态支持",
+        "marketStrategy": "从链家自营切入，建立真房源标准，再通过ACN网络开放给行业，成为房产交易平台",
+        "businessModel": "交易佣金 + 平台服务费 + 广告 + 金融",
+        "techInnovation": "1. 真房源系统\n2. ACN合作网络\n3. VR看房\n4. 大数据分析\n5. 经纪人SaaS",
+        "growthStrategy": "1. 链家建立基础\n2. 真房源建立信任\n3. ACN开放行业\n4. 技术赋能\n5. 多元化服务",
+        "successLessons": "1. 真房源是房产平台的核心\n2. ACN模式解决合作问题\n3. 线下很重但壁垒高\n4. 技术可以提效\n5. 从自营到平台是路径"
+      },
+      "assessment": {
+        "marketPotential": "房产交易市场巨大",
+        "difficultyAnalysis": "线下很重，信任建立难",
+        "scalabilityAnalysis": "平台网络效应强，但线下扩张慢"
+      },
+      "rebuild": {
+        "pivotConcept": "从房产中介到房产平台",
+        "insight": "行业不仅需要好中介，更需要真房源和合作网络",
+        "productRefactor": "从链家中介，到真房源，再到ACN平台，最终成为房产基础设施",
+        "wedge": "真房源 + ACN"
+      },
+      "execution": {
+        "techStack": "真房源系统、ACN系统、VR技术、SaaS工具",
+        "phase1": "MVP - 链家中介，验证真房源",
+        "phase2": "验证 - ACN网络，验证合作",
+        "phase3": "扩张 - 平台开放 + 技术赋能",
+        "phase4": "护城河 - 房产交易平台"
+      },
+      "monetization": {
+        "revenueStreams": "1. 交易佣金\n2. 平台服务费\n3. 广告\n4. 金融\n5. 其他服务",
+        "profitAnalysis": "佣金收入稳定；2023年营收超过600亿人民币",
+        "exitLogic": "2020年纽交所上市，2022年香港二次上市，市值最高超过800亿美元"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "约600亿人民币（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 5,
+      "potentialScale": 5
+    },
+    {
+      "id": 23,
+      "title": "Dropbox - 云存储的先驱",
+      "logo": "☁️",
+      "category": "企业服务",
+      "tags": [
+        "云存储",
+        "SaaS",
+        "文件同步",
+        "协作",
+        "企业服务"
+      ],
+      "caseType": "success",
+      "productType": "应用",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "Dropbox",
+        "location": "美国 旧金山",
+        "coreTech": "云存储、文件同步、协作",
+        "totalFunding": "多轮融资",
+        "investors": "红杉、Accel、YC",
+        "vision": "让工作更简单",
+        "founded": "2007",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "1. 抓住云存储机遇\n2. 产品体验优秀\n3. 病毒式传播\n4. 从C到B的转型\n5. YC孵化",
+        "marketStrategy": "从个人云存储切入，建立用户基础，再扩展到企业协作，成为SaaS公司",
+        "businessModel": "个人订阅 + 企业订阅 + 存储升级",
+        "techInnovation": "1. 文件同步技术\n2. 多端一致体验\n3. 协作功能\n4. Dropbox Paper\n5. 云存储架构",
+        "growthStrategy": "1. 个人用户建立口碑\n2. 病毒式传播\n3. 企业转型\n4. 产品矩阵\n5. 国际化",
+        "successLessons": "1. 产品体验是关键\n2. 免费+付费模式有效\n3. 病毒传播可获客\n4. 从C到B是路径\n5. YC资源很重要"
+      },
+      "assessment": {
+        "marketPotential": "云存储和协作市场巨大",
+        "difficultyAnalysis": "竞争激烈（Google Drive、OneDrive），差异化难",
+        "scalabilityAnalysis": "云存储规模效应强，但存储成本随规模上升"
+      },
+      "rebuild": {
+        "pivotConcept": "从云存储到协作平台",
+        "insight": "用户不仅需要存储，更需要协作",
+        "productRefactor": "从文件存储，到同步，再到协作，最终成为工作平台",
+        "wedge": "简单的文件同步"
+      },
+      "execution": {
+        "techStack": "云存储、同步技术、协作系统",
+        "phase1": "MVP - 文件同步，验证需求",
+        "phase2": "验证 - 免费+付费，验证模式",
+        "phase3": "扩张 - 企业转型 + 协作",
+        "phase4": "护城河 - 协作平台"
+      },
+      "monetization": {
+        "revenueStreams": "1. 个人订阅\n2. 企业订阅\n3. 存储升级",
+        "profitAnalysis": "订阅收入稳定，但竞争激烈；2023年营收超过25亿美元",
+        "exitLogic": "2018年纳斯达克上市，市值最高超过100亿美元"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "约25亿美元（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 5,
+      "potentialScale": 5
+    },
+    {
+      "id": 24,
+      "title": "Uber - 共享出行的开创者",
+      "logo": "🚗",
+      "category": "出行",
+      "tags": [
+        "共享出行",
+        "网约车",
+        "UberPOOL",
+        "全球化",
+        "监管"
+      ],
+      "caseType": "success",
+      "productType": "应用",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "Uber",
+        "location": "美国 旧金山",
+        "coreTech": "网约车平台、动态定价、算法调度",
+        "totalFunding": "超过250亿美元",
+        "investors": "软银、谷歌、Benchmark",
+        "vision": "让城市更美好",
+        "founded": "2009",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "1. 抓住出行痛点\n2. 动态定价创新\n3. 全球化扩张\n4. 算法调度\n5. 资本支持",
+        "marketStrategy": "从高端黑车切入，逐步扩展到大众市场，通过全球化快速扩张，最终成为出行平台",
+        "businessModel": "佣金 + Uber Eats外卖 + 其他出行业务 + 广告",
+        "techInnovation": "1. 动态定价（Surge）\n2. 算法调度\n3. 多端产品\n4. Uber Eats\n5. 自动驾驶探索",
+        "growthStrategy": "1. 高端切入\n2. 大众扩展\n3. 全球化\n4. Uber Eats\n5. 寻找盈利",
+        "successLessons": "1. 出行痛点真实存在\n2. 动态定价是创新\n3. 全球化可以快速扩张\n4. 监管是重要风险\n5. 盈利需要时间"
+      },
+      "assessment": {
+        "marketPotential": "出行市场巨大，还有外卖等扩展机会",
+        "difficultyAnalysis": "监管风险高，补贴成本高，竞争激烈",
+        "scalabilityAnalysis": "平台网络效应强，但补贴和监管成本高"
+      },
+      "rebuild": {
+        "pivotConcept": "从叫车公司到交通平台",
+        "insight": "用户不仅需要打车，更需要多元交通和外卖",
+        "productRefactor": "从高端叫车，到大众打车，再到外卖和多元交通，最终成为交通平台",
+        "wedge": "叫车服务"
+      },
+      "execution": {
+        "techStack": "叫车系统、动态定价、调度算法",
+        "phase1": "MVP - 高端叫车，验证需求",
+        "phase2": "验证 - 大众市场，验证模式",
+        "phase3": "扩张 - 全球化 + Uber Eats",
+        "phase4": "护城河 - 交通平台"
+      },
+      "monetization": {
+        "revenueStreams": "1. 打车佣金\n2. Uber Eats\n3. 其他服务\n4. 广告",
+        "profitAnalysis": "佣金收入增长，但需要控制补贴；2023年营收超过350亿美元，实现盈利",
+        "exitLogic": "2019年纽交所上市，市值最高超过1200亿美元"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "约350亿美元（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 5,
+      "potentialScale": 5
+    },
+    {
+      "id": 25,
+      "title": "Twitter - 社交媒体的兴衰",
+      "logo": "🐦",
+      "category": "社交",
+      "tags": [
+        "社交媒体",
+        "微博",
+        "信息分发",
+        "马斯克",
+        "收购"
+      ],
+      "caseType": "success",
+      "productType": "应用",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "Twitter (X)",
+        "location": "美国 旧金山",
+        "coreTech": "社交媒体、实时信息流",
+        "totalFunding": "多轮融资",
+        "investors": "Benchmark、Union Square Ventures",
+        "vision": "全球实时交流平台",
+        "founded": "2006",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "1. 抓住实时信息需求\n2. 简洁产品设计\n3. 名人效应\n4. 公共广场定位\n5. 早期创新",
+        "marketStrategy": "从140字微博切入，建立实时信息平台，通过名人效应和媒体采用，成为公共广场",
+        "businessModel": "广告 + 数据授权 + 订阅",
+        "techInnovation": "1. 140字限制\n2. Retweet转发\n3. Hashtag话题\n4. 实时信息流\n5. API生态",
+        "growthStrategy": "1. 简洁产品\n2. 名人效应\n3. 媒体采用\n4. API生态\n5. 马斯克收购",
+        "successLessons": "1. 简洁产品有力量\n2. 实时信息有价值\n3. 名人效应重要\n4. 公共广场定位\n5. 产品创新难持续"
+      },
+      "assessment": {
+        "marketPotential": "社交媒体和实时信息市场巨大",
+        "difficultyAnalysis": "产品创新难，变现难，治理难",
+        "scalabilityAnalysis": "社交网络规模效应强，但内容和治理成本高"
+      },
+      "rebuild": {
+        "pivotConcept": "从社交产品到公共广场",
+        "insight": "用户不仅需要社交，更需要实时信息和公共讨论",
+        "productRefactor": "从140字社交，到实时信息，再到公共广场",
+        "wedge": "140字简洁"
+      },
+      "execution": {
+        "techStack": "社交媒体、实时信息流",
+        "phase1": "MVP - 140字，验证简洁",
+        "phase2": "验证 - 名人媒体，验证价值",
+        "phase3": "扩张 - 广告变现 + API",
+        "phase4": "护城河 - 公共广场"
+      },
+      "monetization": {
+        "revenueStreams": "1. 广告\n2. 数据授权\n3. 订阅",
+        "profitAnalysis": "广告收入稳定，但增长慢；2023年马斯克收购前营收约50亿美元",
+        "exitLogic": "2013年纽交所上市，2022年被马斯克以440亿美元收购退市"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "约50亿美元（2023年营收）",
+      "lossAmount": "",
+      "marketPotentialScore": 5,
+      "potentialScale": 5
+    },
+    {
+      "id": 26,
+      "title": "Clubhouse - 语音社交的流星",
+      "logo": "🎤",
+      "category": "社交",
+      "tags": [
+        "语音社交",
+        "直播",
+        "音频",
+        "疫情",
+        "昙花一现"
+      ],
+      "caseType": "failure",
+      "productType": "应用",
+      "status": "published",
+      "authorId": 2,
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "profile": {
+        "companyName": "Clubhouse",
+        "location": "美国 旧金山",
+        "coreTech": "语音聊天室、直播",
+        "totalFunding": "超过3亿美元",
+        "investors": "a16z、红杉",
+        "vision": "语音社交平台",
+        "founded": "2020",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "",
+        "marketStrategy": "",
+        "businessModel": "",
+        "techInnovation": "",
+        "growthStrategy": "",
+        "successLessons": ""
+      },
+      "assessment": {
+        "marketPotential": "音频社交有机会，但需要找到正确模式",
+        "difficultyAnalysis": "用户留存难，内容质量不稳定，竞争激烈",
+        "scalabilityAnalysis": "网络效应强，但内容质量控制难"
+      },
+      "rebuild": {
+        "pivotConcept": "从全开放到垂直社区",
+        "insight": "语音社交需要特定场景和人群，不能大而全",
+        "productRefactor": "选择垂直领域（如投资、音乐、教育），建立高质量社区",
+        "wedge": "垂直高质量社区"
+      },
+      "execution": {
+        "techStack": "语音聊天室、直播",
+        "phase1": "MVP - 选择垂直领域验证",
+        "phase2": "验证 - 验证留存和质量",
+        "phase3": "扩张 - 控制质量下扩张",
+        "phase4": "护城河 - 建立社区壁垒"
+      },
+      "monetization": {
+        "revenueStreams": "1. 订阅\n2. 打赏\n3. 广告",
+        "profitAnalysis": "需要找到合适的变现方式",
+        "exitLogic": "如果调整模式，可能被收购"
+      },
+      "reviewerId": 1,
+      "reviewNotes": "案例内容完整，审核通过",
+      "reviewedAt": "2026-03-24T11:34:50.672Z",
+      "reviewedBy": 1,
+      "createdAt": "2026-03-24T11:34:50.672Z",
+      "updatedAt": "2026-03-24T11:34:50.672Z",
+      "profitAmount": "",
+      "lossAmount": "见详情",
+      "marketPotentialScore": 3,
+      "potentialScale": 5,
+      "rebuildPotential": 4
+    },
+    {
+      "id": 27,
+      "title": "FTX - 加密货币帝国的崩塌",
+      "logo": "💎",
+      "category": "金融",
+      "tags": [
+        "加密货币",
+        "交易所",
+        "破产",
+        "欺诈",
+        "监管",
+        "FTT代币"
+      ],
+      "caseType": "failure",
+      "productType": "平台",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "lossAmount": "约80亿美元",
+      "marketPotentialScore": 4,
+      "potentialScale": 5,
+      "rebuildPotential": 3,
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-25T08:00:54.646Z",
+      "updatedAt": "2026-03-26T04:37:32.027Z",
+      "profile": {
+        "companyName": "FTX",
+        "location": "巴哈马",
+        "coreTech": "加密货币交易所技术",
+        "totalFunding": "超过20亿美元",
+        "investors": "红杉资本、软银、淡马锡、Paradigm",
+        "vision": "成为全球领先的加密货币交易所，让加密货币交易更简单、更安全",
+        "founded": "2019",
+        "closed": "2022",
+        "cashBurned": "数十亿美元"
+      },
+      "failure": {
+        "fatalFlaw": "用户资产与关联公司Alameda Research资产混同 + 欺诈性挪用用户资金 + FTT代币操纵",
+        "marketBackground": "2021-2022年加密货币牛市，FTX估值达到320亿美元；2022年熊市来临，市场信心动摇",
+        "economicLogic": "用户资金被挪用至高风险投资，FTT代币作为抵押品的泡沫经济，没有真实储备支撑",
+        "techLimitations": "没有完善的资金隔离系统，没有透明的审计机制，内部系统设计允许资金任意转移",
+        "scalability": "用户增长驱动，但没有相应的风控和合规体系，规模越大风险越大",
+        "lessonsLearned": "1. 金融企业必须把合规和风控放在首位\n2. 用户资产必须完全隔离\n3. 透明度和审计至关重要\n4. 关联交易必须严格限制\n5. 不要用代币作为主要抵押品"
+      },
+      "assessment": {
+        "marketPotential": "加密货币交易市场存在，但监管风险极高，需要极强的合规能力",
+        "difficultyAnalysis": "监管不确定性高，需要极强的风控和合规，用户信任建立困难",
+        "scalabilityAnalysis": "交易所规模效应强，但需要极强的合规能力，否则风险随规模放大"
+      },
+      "rebuild": {
+        "pivotConcept": "从激进扩张转向合规经营，建立透明的交易所",
+        "insight": "加密货币用户需要的是安全、透明、合规的交易平台，而不是高风险的赌博",
+        "productRefactor": "建立严格的风控和合规体系，用户资产100%隔离，定期第三方审计，完全透明运营",
+        "wedge": "合规和风控作为核心竞争力"
+      },
+      "execution": {
+        "techStack": "交易所系统、冷钱包存储、多重签名、风控系统、实时审计系统",
+        "phase1": "MVP - 建立合规框架，用户资产完全隔离，透明储备证明",
+        "phase2": "验证 - 透明运营，定期第三方审计，建立用户信任",
+        "phase3": "扩张 - 在合规前提下稳步发展",
+        "phase4": "护城河 - 建立监管和风控壁垒，成为合规标杆"
+      },
+      "monetization": {
+        "revenueStreams": "交易手续费 + 上币费 + 其他增值服务",
+        "profitAnalysis": "交易所手续费收入稳定，但需要风控和合规成本，合规前提下可以实现可持续盈利",
+        "exitLogic": "如果合规运营，可能被传统金融机构收购或在合规市场上市"
+      },
+      "views": {
+        "total": 6,
+        "weekly": {
+          "13": 6
+        },
+        "monthly": {
+          "2": 6
+        },
+        "lastViewed": "2026-03-26T04:37:32.027Z"
+      }
+    },
+    {
+      "id": 28,
+      "title": "FTX - 加密货币帝国的崩塌",
+      "logo": "💎",
+      "category": "金融",
+      "tags": [
+        "加密货币",
+        "交易所",
+        "破产",
+        "欺诈",
+        "监管",
+        "FTT代币"
+      ],
+      "caseType": "failure",
+      "productType": "平台",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。",
+      "lossAmount": "约80亿美元",
+      "marketPotentialScore": 4,
+      "potentialScale": 5,
+      "rebuildPotential": 3,
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-25T08:02:18.753Z",
+      "profile": {
+        "companyName": "FTX",
+        "location": "巴哈马",
+        "coreTech": "加密货币交易所技术",
+        "totalFunding": "超过20亿美元",
+        "investors": "红杉资本、软银、淡马锡、Paradigm",
+        "vision": "成为全球领先的加密货币交易所，让加密货币交易更简单、更安全",
+        "founded": "2019",
+        "closed": "2022",
+        "cashBurned": "数十亿美元"
+      },
+      "failure": {
+        "fatalFlaw": "用户资产与关联公司Alameda Research资产混同 + 欺诈性挪用用户资金 + FTT代币操纵",
+        "marketBackground": "2021-2022年加密货币牛市，FTX估值达到320亿美元；2022年熊市来临，市场信心动摇",
+        "economicLogic": "用户资金被挪用至高风险投资，FTT代币作为抵押品的泡沫经济，没有真实储备支撑",
+        "techLimitations": "没有完善的资金隔离系统，没有透明的审计机制，内部系统设计允许资金任意转移",
+        "scalability": "用户增长驱动，但没有相应的风控和合规体系，规模越大风险越大",
+        "lessonsLearned": "1. 金融企业必须把合规和风控放在首位\n2. 用户资产必须完全隔离\n3. 透明度和审计至关重要\n4. 关联交易必须严格限制\n5. 不要用代币作为主要抵押品"
+      },
+      "assessment": {
+        "marketPotential": "加密货币交易市场存在，但监管风险极高，需要极强的合规能力",
+        "difficultyAnalysis": "监管不确定性高，需要极强的风控和合规，用户信任建立困难",
+        "scalabilityAnalysis": "交易所规模效应强，但需要极强的合规能力，否则风险随规模放大"
+      },
+      "rebuild": {
+        "pivotConcept": "从激进扩张转向合规经营，建立透明的交易所",
+        "insight": "加密货币用户需要的是安全、透明、合规的交易平台，而不是高风险的赌博",
+        "productRefactor": "建立严格的风控和合规体系，用户资产100%隔离，定期第三方审计，完全透明运营",
+        "wedge": "合规和风控作为核心竞争力"
+      },
+      "execution": {
+        "techStack": "交易所系统、冷钱包存储、多重签名、风控系统、实时审计系统",
+        "phase1": "MVP - 建立合规框架，用户资产完全隔离，透明储备证明",
+        "phase2": "验证 - 透明运营，定期第三方审计，建立用户信任",
+        "phase3": "扩张 - 在合规前提下稳步发展",
+        "phase4": "护城河 - 建立监管和风控壁垒，成为合规标杆"
+      },
+      "monetization": {
+        "revenueStreams": "交易手续费 + 上币费 + 其他增值服务",
+        "profitAnalysis": "交易所手续费收入稳定，但需要风控和合规成本，合规前提下可以实现可持续盈利",
+        "exitLogic": "如果合规运营，可能被传统金融机构收购或在合规市场上市"
+      }
+    },
+    {
+      "id": 29,
+      "title": "Notion笔记 - 笔记协作平台",
+      "logo": "📝",
+      "category": "软件",
+      "tags": [
+        "笔记",
+        "协作",
+        "SaaS",
+        "生产力",
+        "远程办公",
+        "文档管理"
+      ],
+      "caseType": "success",
+      "productType": "SaaS",
+      "profitAmount": "约100亿美元估值",
+      "marketPotentialScore": 5,
+      "potentialScale": 5,
+      "rebuildPotential": 5,
+      "profile": {
+        "companyName": "Notion Labs",
+        "location": "美国 旧金山",
+        "coreTech": "模块化文档协作系统",
+        "totalFunding": "超过3.4亿美元",
+        "investors": "Sequoia Capital, Index Ventures, Coatue",
+        "vision": "让每个人都能创建自己的工作空间",
+        "founded": "2016",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "产品极简主义 + 灵活的模块化设计 + 口碑传播 + 企业级市场拓展",
+        "marketStrategy": "从早期用户入手，逐步向企业市场渗透",
+        "businessModel": "订阅制（个人$8/月，企业$15/用户/月）",
+        "techInnovation": "块级编辑、数据库功能、模板市场、API开放",
+        "growthStrategy": "口碑传播 + 内容营销 + 模板生态",
+        "successLessons": "1. 产品质量是最好的营销\n2. 灵活性满足多种场景\n3. 从个人到企业的渐进式增长\n4. 建立用户社区和生态"
+      },
+      "assessment": {
+        "marketPotential": "生产力工具市场巨大，协作需求持续增长",
+        "difficultyAnalysis": "竞争激烈，但差异化明显",
+        "scalabilityAnalysis": "订阅制模式，易于规模化"
+      },
+      "rebuild": {
+        "pivotConcept": "从笔记工具到企业级协作平台",
+        "insight": "企业需要灵活的工作空间，而不仅仅是笔记",
+        "productRefactor": "增加数据库、API、自动化等企业功能",
+        "wedge": "灵活的模块化设计"
+      },
+      "execution": {
+        "techStack": "React, TypeScript, PostgreSQL, AWS",
+        "phase1": "MVP - 个人笔记工具",
+        "phase2": "验证 - 团队协作功能",
+        "phase3": "扩张 - 企业市场",
+        "phase4": "护城河 - 生态系统和API"
+      },
+      "monetization": {
+        "revenueStreams": "个人订阅 + 企业订阅 + 教育版",
+        "profitAnalysis": "订阅收入稳定，利润率高",
+        "exitLogic": "可能独立上市或被微软/Google收购"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.484Z",
+      "updatedAt": "2026-03-26T00:10:16.484Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 30,
+      "title": "Figma设计 - 设计协作平台",
+      "logo": "🎨",
+      "category": "设计",
+      "tags": [
+        "设计",
+        "协作",
+        "SaaS",
+        "UI/UX",
+        "云端",
+        "创意工具"
+      ],
+      "caseType": "success",
+      "productType": "SaaS",
+      "profitAmount": "200亿美元被Adobe收购",
+      "marketPotentialScore": 5,
+      "potentialScale": 5,
+      "rebuildPotential": 5,
+      "profile": {
+        "companyName": "Figma",
+        "location": "美国 旧金山",
+        "coreTech": "浏览器端矢量图形引擎",
+        "totalFunding": "超过1.3亿美元",
+        "investors": "Greylock Partners, Kleiner Perkins, Sequoia",
+        "vision": "让设计协作像Google Docs一样简单",
+        "founded": "2012",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "浏览器原生设计 + 实时协作 + 组件系统 + 插件生态",
+        "marketStrategy": "从设计师入手，逐步渗透到整个产品团队",
+        "businessModel": "订阅制（免费版、专业$12/月、企业$45/用户/月）",
+        "techInnovation": "WebGL矢量渲染、CRDT实时协作、组件库、插件系统",
+        "growthStrategy": "设计师网络效应 + 插件生态 + 企业销售",
+        "successLessons": "1. 浏览器是最好的平台\n2. 协作是核心竞争力\n3. 建立开发者生态\n4. 从工具到平台"
+      },
+      "assessment": {
+        "marketPotential": "设计工具市场稳定，协作需求强烈",
+        "difficultyAnalysis": "技术门槛高，但一旦建立优势难以撼动",
+        "scalabilityAnalysis": "订阅制+生态系统，增长潜力大"
+      },
+      "rebuild": {
+        "pivotConcept": "从设计工具到设计平台",
+        "insight": "设计不仅仅是画图，更是协作和流程",
+        "productRefactor": "增加原型、测试、交付等完整流程",
+        "wedge": "实时协作"
+      },
+      "execution": {
+        "techStack": "WebGL, C++, TypeScript, AWS",
+        "phase1": "MVP - 浏览器端设计工具",
+        "phase2": "验证 - 实时协作功能",
+        "phase3": "扩张 - 组件和插件生态",
+        "phase4": "护城河 - 被Adobe收购"
+      },
+      "monetization": {
+        "revenueStreams": "订阅费 + 企业合同",
+        "profitAnalysis": "毛利率高，现金流好",
+        "exitLogic": "2022年被Adobe以200亿美元收购"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.484Z",
+      "updatedAt": "2026-03-26T00:10:16.484Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 31,
+      "title": "Canva平台 - 在线设计平台",
+      "logo": "🖼️",
+      "category": "设计",
+      "tags": [
+        "设计",
+        "模板",
+        "SaaS",
+        "平面设计",
+        "社交媒体",
+        "草根创业"
+      ],
+      "caseType": "success",
+      "productType": "SaaS",
+      "profitAmount": "约400亿美元估值",
+      "marketPotentialScore": 5,
+      "potentialScale": 5,
+      "rebuildPotential": 4,
+      "profile": {
+        "companyName": "Canva",
+        "location": "澳大利亚 悉尼",
+        "coreTech": "在线图形设计工具",
+        "totalFunding": "超过5.7亿美元",
+        "investors": "Blackbird Ventures, Sequoia China, Bond Capital",
+        "vision": "让每个人都能设计专业级的图形",
+        "founded": "2013",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "模板驱动 + 免费增值 + 草根市场 + 国际化",
+        "marketStrategy": "从非设计师入手，覆盖长尾市场",
+        "businessModel": "免费增值（Pro $12.99/月，企业$30/用户/月）",
+        "techInnovation": "拖拽编辑器、百万级模板库、品牌套件、AI设计",
+        "growthStrategy": "病毒式传播 + 内容营销 + 本地化",
+        "successLessons": "1. 长尾市场也能做大\n2. 免费增值是好策略\n3. 模板降低使用门槛\n4. 全球化布局"
+      },
+      "assessment": {
+        "marketPotential": "设计需求普及化，市场巨大",
+        "difficultyAnalysis": "竞争激烈，但差异化明显",
+        "scalabilityAnalysis": "边际成本极低，易于规模化"
+      },
+      "rebuild": {
+        "pivotConcept": "从设计工具到视觉沟通平台",
+        "insight": "人们需要的不是设计，而是视觉内容",
+        "productRefactor": "增加视频、演示、网站等更多格式",
+        "wedge": "海量模板"
+      },
+      "execution": {
+        "techStack": "React, Node.js, AWS",
+        "phase1": "MVP - 简单的在线设计工具",
+        "phase2": "验证 - 模板和免费增值",
+        "phase3": "扩张 - 国际化和企业版",
+        "phase4": "护城河 - AI和生态系统"
+      },
+      "monetization": {
+        "revenueStreams": "Pro订阅 + 企业订阅 + 素材销售",
+        "profitAnalysis": "毛利率高，现金流好",
+        "exitLogic": "可能独立上市"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.484Z",
+      "updatedAt": "2026-03-26T00:10:16.484Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 32,
+      "title": "Superhuman邮件 - 极致邮件体验",
+      "logo": "📧",
+      "category": "软件",
+      "tags": [
+        "邮件",
+        "SaaS",
+        "生产力",
+        "键盘快捷键",
+        "高端",
+        "极简主义"
+      ],
+      "caseType": "success",
+      "productType": "SaaS",
+      "profitAmount": "约10亿美元估值",
+      "marketPotentialScore": 4,
+      "potentialScale": 4,
+      "rebuildPotential": 4,
+      "profile": {
+        "companyName": "Superhuman",
+        "location": "美国 旧金山",
+        "coreTech": "极速邮件客户端",
+        "totalFunding": "超过1亿美元",
+        "investors": "Andreessen Horowitz, First Round Capital",
+        "vision": "让处理邮件成为一种享受",
+        "founded": "2014",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "极致速度 + 键盘驱动 + 高端定价 + 邀请制",
+        "marketStrategy": "从高端用户入手，逐步扩展",
+        "businessModel": "高端订阅制 $30/月",
+        "techInnovation": "极速加载、键盘快捷键、AI辅助、拆分收件箱",
+        "growthStrategy": "邀请制 + 口碑传播 + 等待名单",
+        "successLessons": "1. 极致体验值得付费\n2. 高端市场有利可图\n3. 等待名单创造稀缺性\n4. 专注核心功能"
+      },
+      "assessment": {
+        "marketPotential": "邮件是永恒的需求，高端市场稳定",
+        "difficultyAnalysis": "用户习惯难以改变，但体验差异明显",
+        "scalabilityAnalysis": "高端市场，增长相对缓慢但质量高"
+      },
+      "rebuild": {
+        "pivotConcept": "从工具到体验",
+        "insight": "人们愿意为极致体验付费",
+        "productRefactor": "每一个细节都优化到极致",
+        "wedge": "速度和键盘操作"
+      },
+      "execution": {
+        "techStack": "React, Electron, AWS",
+        "phase1": "MVP - 邀请制内测",
+        "phase2": "验证 - 高端用户验证",
+        "phase3": "扩张 - 逐步开放邀请",
+        "phase4": "护城河 - 品牌和用户忠诚度"
+      },
+      "monetization": {
+        "revenueStreams": "订阅费 $30/月",
+        "profitAnalysis": "ARPU高，毛利率好",
+        "exitLogic": "可能被Google/Microsoft收购或独立发展"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.484Z",
+      "updatedAt": "2026-03-26T00:10:16.484Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 33,
+      "title": "Linear项目 - 现代项目管理",
+      "logo": "📊",
+      "category": "软件",
+      "tags": [
+        "项目管理",
+        "SaaS",
+        "开发者工具",
+        "极简主义",
+        "Jira替代",
+        "productivity"
+      ],
+      "caseType": "success",
+      "productType": "SaaS",
+      "profitAmount": "约10亿美元估值",
+      "marketPotentialScore": 4,
+      "potentialScale": 5,
+      "rebuildPotential": 4,
+      "profile": {
+        "companyName": "Linear",
+        "location": "美国 旧金山",
+        "coreTech": "键盘驱动的项目管理",
+        "totalFunding": "超过1亿美元",
+        "investors": "Sequoia Capital, Index Ventures",
+        "vision": "让项目管理像代码编辑器一样高效",
+        "founded": "2019",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "键盘驱动 + 极简设计 + 开发者优先 + 实时同步",
+        "marketStrategy": "从开发者和创业公司入手",
+        "businessModel": "订阅制（免费、$8/用户/月、企业版）",
+        "techInnovation": "键盘快捷键、实时同步、GraphQL API、Cycle工作流",
+        "growthStrategy": "开发者社区 + 口碑传播 + API生态",
+        "successLessons": "1. 为特定人群设计\n2. 键盘操作效率高\n3. 好的设计本身就是卖点\n4. API优先战略"
+      },
+      "assessment": {
+        "marketPotential": "项目管理是刚需，开发者工具市场稳定",
+        "difficultyAnalysis": "Jira占据市场，但差异化明显",
+        "scalabilityAnalysis": "订阅制，易于规模化"
+      },
+      "rebuild": {
+        "pivotConcept": "从Jira替代到现代工作流",
+        "insight": "开发者需要更高效的工具",
+        "productRefactor": "专注于速度和键盘操作",
+        "wedge": "开发者体验"
+      },
+      "execution": {
+        "techStack": "React, TypeScript, GraphQL, Postgres",
+        "phase1": "MVP - 内部使用",
+        "phase2": "验证 - 创业公司验证",
+        "phase3": "扩张 - API和生态",
+        "phase4": "护城河 - 工作流标准"
+      },
+      "monetization": {
+        "revenueStreams": "订阅费",
+        "profitAnalysis": "毛利率高，现金流好",
+        "exitLogic": "可能独立上市或被Atlassian收购"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.484Z",
+      "updatedAt": "2026-03-26T00:10:16.484Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 34,
+      "title": "Discord社交 - 游戏社交平台",
+      "logo": "🎮",
+      "category": "社交",
+      "tags": [
+        "社交",
+        "游戏",
+        "社区",
+        "语音聊天",
+        "Slack替代",
+        "创作者经济"
+      ],
+      "caseType": "success",
+      "productType": "平台",
+      "profitAmount": "约150亿美元估值",
+      "marketPotentialScore": 5,
+      "potentialScale": 5,
+      "rebuildPotential": 5,
+      "profile": {
+        "companyName": "Discord",
+        "location": "美国 旧金山",
+        "coreTech": "低延迟语音聊天",
+        "totalFunding": "超过9.9亿美元",
+        "investors": "Benchmark, Greylock, Tencent",
+        "vision": "为游戏玩家创造最好的沟通方式",
+        "founded": "2015",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "低延迟语音 + 免费 + 社区驱动 + 跨平台",
+        "marketStrategy": "从游戏玩家入手，逐步扩展到所有社区",
+        "businessModel": "Nitro订阅（$9.99/月）+ 服务器增强",
+        "techInnovation": "低延迟语音、服务器系统、机器人API、Stages频道",
+        "growthStrategy": "游戏社区传播 + 口碑 + 跨平台",
+        "successLessons": "1. 解决真实痛点\n2. 免费是好策略\n3. 社区是护城河\n4. 从细分市场扩张"
+      },
+      "assessment": {
+        "marketPotential": "社交沟通是永恒需求，社区潜力巨大",
+        "difficultyAnalysis": "竞争激烈，但定位独特",
+        "scalabilityAnalysis": "网络效应，增长潜力大"
+      },
+      "rebuild": {
+        "pivotConcept": "从游戏语音到所有社区",
+        "insight": "任何社区都需要好的沟通工具",
+        "productRefactor": "增加文本、视频、Stages等功能",
+        "wedge": "低延迟语音"
+      },
+      "execution": {
+        "techStack": "React, Node.js, WebRTC, C++",
+        "phase1": "MVP - 游戏语音聊天",
+        "phase2": "验证 - 游戏社区验证",
+        "phase3": "扩张 - 所有社区",
+        "phase4": "护城河 - 生态系统"
+      },
+      "monetization": {
+        "revenueStreams": "Nitro订阅 + 服务器增强",
+        "profitAnalysis": "毛利率好，现金流稳定",
+        "exitLogic": "可能独立上市"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.484Z",
+      "updatedAt": "2026-03-26T00:10:16.484Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 35,
+      "title": "Airtable数据 - 电子表格数据库",
+      "logo": "📋",
+      "category": "软件",
+      "tags": [
+        "数据库",
+        "电子表格",
+        "SaaS",
+        "低代码",
+        "无代码",
+        "生产力"
+      ],
+      "caseType": "success",
+      "productType": "SaaS",
+      "profitAmount": "约110亿美元估值",
+      "marketPotentialScore": 5,
+      "potentialScale": 5,
+      "rebuildPotential": 5,
+      "profile": {
+        "companyName": "Airtable",
+        "location": "美国 旧金山",
+        "coreTech": "电子表格数据库混合体",
+        "totalFunding": "超过13亿美元",
+        "investors": "Benchmark, Coatue, Thrive Capital",
+        "vision": "让每个人都能创建自己的数据库",
+        "founded": "2012",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "电子表格易用性 + 数据库功能 + 可视化 + 协作",
+        "marketStrategy": "从个人和小团队入手",
+        "businessModel": "免费增值（$10/用户/月起）",
+        "techInnovation": "字段类型、视图、API、自动化",
+        "growthStrategy": "模板市场 + 口碑传播 + API生态",
+        "successLessons": "1. 混合创新有力量\n2. 易用性是关键\n3. 模板降低门槛\n4. API创造生态"
+      },
+      "assessment": {
+        "marketPotential": "数据管理是刚需，市场巨大",
+        "difficultyAnalysis": "Excel和数据库之间的空白",
+        "scalabilityAnalysis": "订阅制+生态，增长潜力大"
+      },
+      "rebuild": {
+        "pivotConcept": "从工具到平台",
+        "insight": "人们需要的不是数据库，而是解决方案",
+        "productRefactor": "增加应用市场和自动化",
+        "wedge": "易用性"
+      },
+      "execution": {
+        "techStack": "React, Node.js, Postgres",
+        "phase1": "MVP - 电子表格数据库",
+        "phase2": "验证 - 小团队验证",
+        "phase3": "扩张 - 企业和API",
+        "phase4": "护城河 - 应用生态"
+      },
+      "monetization": {
+        "revenueStreams": "订阅费",
+        "profitAnalysis": "毛利率高",
+        "exitLogic": "可能独立上市"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.484Z",
+      "updatedAt": "2026-03-26T00:10:16.484Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 36,
+      "title": "Retool工具 - 内部工具开发平台",
+      "logo": "🛠️",
+      "category": "软件",
+      "tags": [
+        "内部工具",
+        "低代码",
+        "SaaS",
+        "开发者工具",
+        "企业软件",
+        "快速开发"
+      ],
+      "caseType": "success",
+      "productType": "SaaS",
+      "profitAmount": "约30亿美元估值",
+      "marketPotentialScore": 5,
+      "potentialScale": 5,
+      "rebuildPotential": 4,
+      "profile": {
+        "companyName": "Retool",
+        "location": "美国 旧金山",
+        "coreTech": "可视化内部工具构建平台",
+        "totalFunding": "超过1.4亿美元",
+        "investors": "Sequoia Capital, Andreessen Horowitz",
+        "vision": "让构建内部工具像搭积木一样简单",
+        "founded": "2017",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "拖拽构建 + 预建组件 + 多数据源 + 开发者友好",
+        "marketStrategy": "从创业公司入手，逐步企业化",
+        "businessModel": "按用户收费（$10/用户/月起）",
+        "techInnovation": "拖拽编辑器、组件库、数据库连接器、JavaScript支持",
+        "growthStrategy": "开发者社区 + 内容营销 + 模板",
+        "successLessons": "1. 内部工具是大市场\n2. 预建组件节省时间\n3. 开发者喜欢灵活和控制\n4. 从简单开始"
+      },
+      "assessment": {
+        "marketPotential": "每个公司都需要内部工具，市场巨大",
+        "difficultyAnalysis": "技术门槛适中，差异化明显",
+        "scalabilityAnalysis": "订阅制，易于规模化"
+      },
+      "rebuild": {
+        "pivotConcept": "从工具到平台",
+        "insight": "开发者需要快速构建工具",
+        "productRefactor": "增加更多组件和集成",
+        "wedge": "预建组件"
+      },
+      "execution": {
+        "techStack": "React, Node.js, Postgres",
+        "phase1": "MVP - 内部使用",
+        "phase2": "验证 - 创业公司验证",
+        "phase3": "扩张 - 企业市场",
+        "phase4": "护城河 - 组件生态"
+      },
+      "monetization": {
+        "revenueStreams": "订阅费",
+        "profitAnalysis": "毛利率高",
+        "exitLogic": "可能独立上市"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.484Z",
+      "updatedAt": "2026-03-26T00:10:16.484Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 37,
+      "title": "Vercel部署 - 前端部署平台",
+      "logo": "🚀",
+      "category": "软件",
+      "tags": [
+        "部署",
+        "前端",
+        "开发者工具",
+        "Jamstack",
+        "Next.js",
+        "云服务"
+      ],
+      "caseType": "success",
+      "productType": "SaaS",
+      "profitAmount": "约80亿美元估值",
+      "marketPotentialScore": 5,
+      "potentialScale": 5,
+      "rebuildPotential": 5,
+      "profile": {
+        "companyName": "Vercel",
+        "location": "美国 旧金山",
+        "coreTech": "Git驱动的前端部署",
+        "totalFunding": "超过4.6亿美元",
+        "investors": "Accel, GV, Sequoia",
+        "vision": "让前端部署像Git提交一样简单",
+        "founded": "2015",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "Git集成 + 零配置 + 全球CDN + Next.js框架",
+        "marketStrategy": "从前端开发者入手",
+        "businessModel": "免费增值（Pro $20/月起）",
+        "techInnovation": "Git部署、预览环境、边缘计算、Analytics",
+        "growthStrategy": "Next.js生态 + 开发者社区 + 口碑",
+        "successLessons": "1. 开发者体验是关键\n2. 零配置是卖点\n3. 框架+平台组合强大\n4. 从开源开始"
+      },
+      "assessment": {
+        "marketPotential": "前端开发是大市场，部署需求持续",
+        "difficultyAnalysis": "技术门槛高，但优势明显",
+        "scalabilityAnalysis": "订阅制+网络效应，增长潜力大"
+      },
+      "rebuild": {
+        "pivotConcept": "从部署平台到前端云",
+        "insight": "前端需要完整的云平台",
+        "productRefactor": "增加边缘函数、数据库等",
+        "wedge": "Next.js"
+      },
+      "execution": {
+        "techStack": "React, Node.js, Kubernetes, AWS",
+        "phase1": "MVP - 简单部署",
+        "phase2": "验证 - Next.js集成",
+        "phase3": "扩张 - 边缘计算",
+        "phase4": "护城河 - 生态系统"
+      },
+      "monetization": {
+        "revenueStreams": "订阅费 + 企业合同",
+        "profitAnalysis": "毛利率高",
+        "exitLogic": "可能独立上市"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.484Z",
+      "updatedAt": "2026-03-26T00:10:16.484Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 38,
+      "title": "NotionAI - AI生产力工具",
+      "logo": "🤖",
+      "category": "AI",
+      "tags": [
+        "AI",
+        "生产力",
+        "写作辅助",
+        "内容生成",
+        "GPT",
+        "知识管理"
+      ],
+      "caseType": "success",
+      "productType": "SaaS",
+      "profitAmount": "包含在Notion估值中",
+      "marketPotentialScore": 5,
+      "potentialScale": 5,
+      "rebuildPotential": 5,
+      "profile": {
+        "companyName": "Notion Labs",
+        "location": "美国 旧金山",
+        "coreTech": "AI驱动的知识管理",
+        "totalFunding": "包含在Notion融资中",
+        "investors": "包含在Notion投资者中",
+        "vision": "让AI成为你的工作伙伴",
+        "founded": "2023",
+        "closed": "",
+        "cashBurned": ""
+      },
+      "success": {
+        "successFactor": "深度集成 + 上下文理解 + 多种用例 + 价格合理",
+        "marketStrategy": "现有用户基础上扩展",
+        "businessModel": "附加订阅 $8/月",
+        "techInnovation": "上下文AI、文档对话、自动摘要、写作辅助",
+        "growthStrategy": "现有用户转化 + 口碑传播",
+        "successLessons": "1. 集成比独立应用强\n2. 上下文是关键\n3. 现有用户是基础\n4. AI增强而非替代"
+      },
+      "assessment": {
+        "marketPotential": "AI生产力市场巨大，增长迅速",
+        "difficultyAnalysis": "竞争激烈，但集成优势明显",
+        "scalabilityAnalysis": "边际成本低，易于规模化"
+      },
+      "rebuild": {
+        "pivotConcept": "从工具到AI伙伴",
+        "insight": "AI应该增强现有工作流",
+        "productRefactor": "深度集成AI到每个功能",
+        "wedge": "上下文理解"
+      },
+      "execution": {
+        "techStack": "React, Python, OpenAI API",
+        "phase1": "MVP - 写作辅助",
+        "phase2": "验证 - 现有用户验证",
+        "phase3": "扩张 - 更多AI功能",
+        "phase4": "护城河 - 深度集成"
+      },
+      "monetization": {
+        "revenueStreams": "AI附加订阅",
+        "profitAnalysis": "毛利率极高",
+        "exitLogic": "包含在Notion整体战略中"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.484Z",
+      "updatedAt": "2026-03-26T00:10:16.484Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 39,
+      "title": "Juicero榨汁 - 智能榨汁机",
+      "logo": "🧃",
+      "category": "硬件",
+      "tags": [
+        "硬件",
+        "物联网",
+        "过度设计",
+        "榨汁机",
+        "Kickstarter",
+        "智商税"
+      ],
+      "caseType": "failure",
+      "productType": "硬件",
+      "lossAmount": "约1.2亿美元",
+      "marketPotentialScore": 2,
+      "potentialScale": 2,
+      "rebuildPotential": 2,
+      "profile": {
+        "companyName": "Juicero",
+        "location": "美国 旧金山",
+        "coreTech": "智能联网榨汁机",
+        "totalFunding": "约1.2亿美元",
+        "investors": "Kleiner Perkins, Google Ventures, Andreessen Horowitz",
+        "vision": "用技术革新家庭榨汁体验",
+        "founded": "2013",
+        "closed": "2017",
+        "cashBurned": "约1.2亿美元"
+      },
+      "failure": {
+        "fatalFlaw": "过度工程化 + 不解决真实问题 + 成本过高 + 手挤效果更好",
+        "marketBackground": "智能硬件热潮，Kickstarter众筹火爆",
+        "economicLogic": "硬件+订阅模式，但硬件成本过高，订阅收入无法覆盖",
+        "techLimitations": "过度复杂的设计，400个零件，用户体验差",
+        "scalability": "硬件业务，单位经济学差",
+        "lessonsLearned": "1. 不要过度设计\n2. 先验证问题是否存在\n3. 手能解决的不要用机器\n4. 成本控制至关重要"
+      },
+      "assessment": {
+        "marketPotential": "榨汁机市场存在，但智能需求不明确",
+        "difficultyAnalysis": "硬件创业难度大，成本控制难",
+        "scalabilityAnalysis": "硬件业务，难以规模化"
+      },
+      "rebuild": {
+        "pivotConcept": "从硬件到健康服务",
+        "insight": "人们需要健康，不是智能榨汁机",
+        "productRefactor": "简化设计，专注内容和服务",
+        "wedge": "营养和健康"
+      },
+      "execution": {
+        "techStack": "硬件设计、IoT、移动应用",
+        "phase1": "MVP - 简单的榨汁机",
+        "phase2": "验证 - 用户验证",
+        "phase3": "扩张 - 内容和服务",
+        "phase4": "护城河 - 健康数据"
+      },
+      "monetization": {
+        "revenueStreams": "硬件销售 + 订阅包",
+        "profitAnalysis": "硬件成本过高，单位经济学差",
+        "exitLogic": "倒闭，资产清算"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.485Z",
+      "updatedAt": "2026-03-26T00:10:16.485Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 40,
+      "title": "Theranos血检 - 滴血成金骗局",
+      "logo": "🩸",
+      "category": "医疗",
+      "tags": [
+        "医疗",
+        "欺诈",
+        "血检",
+        "硅谷",
+        "独角兽",
+        "女创业者"
+      ],
+      "caseType": "failure",
+      "productType": "医疗设备",
+      "lossAmount": "约10亿美元",
+      "marketPotentialScore": 1,
+      "potentialScale": 1,
+      "rebuildPotential": 1,
+      "profile": {
+        "companyName": "Theranos",
+        "location": "美国 帕洛阿尔托",
+        "coreTech": "声称的微量血液检测技术",
+        "totalFunding": "约10亿美元",
+        "investors": "Rupert Murdoch, Walmart, Betsy DeVos",
+        "vision": "用一滴血 revolutionize 医疗检测",
+        "founded": "2003",
+        "closed": "2018",
+        "cashBurned": "约10亿美元"
+      },
+      "failure": {
+        "fatalFlaw": "技术造假 + 欺诈性宣传 + 监管违规 + 创始人沉迷故事而非产品",
+        "marketBackground": "医疗创新热潮，硅谷独角兽崇拜",
+        "economicLogic": "基于虚假技术的估值泡沫，没有真实收入",
+        "techLimitations": "声称的技术根本不存在，使用的是商用机器",
+        "scalability": "基于欺诈，无法持续",
+        "lessonsLearned": "1. 技术不能造假\n2. 监管不能忽视\n3. 故事不能代替产品\n4. 尽职调查至关重要"
+      },
+      "assessment": {
+        "marketPotential": "医疗检测市场巨大，但需要真实技术",
+        "difficultyAnalysis": "医疗监管严格，技术门槛高",
+        "scalabilityAnalysis": "欺诈无法持续"
+      },
+      "rebuild": {
+        "pivotConcept": "从革命到真实",
+        "insight": "医疗需要真实和透明",
+        "productRefactor": "真实技术，合规经营",
+        "wedge": "透明度"
+      },
+      "execution": {
+        "techStack": "医疗设备、实验室技术",
+        "phase1": "MVP - 真实技术验证",
+        "phase2": "验证 - 临床验证",
+        "phase3": "扩张 - 合规化",
+        "phase4": "护城河 - 信任"
+      },
+      "monetization": {
+        "revenueStreams": "检测费用",
+        "profitAnalysis": "基于欺诈，无真实利润",
+        "exitLogic": "创始人入狱，公司倒闭"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.485Z",
+      "updatedAt": "2026-03-26T00:10:16.485Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 41,
+      "title": "Bird滑板 - 共享电动滑板车",
+      "logo": "🛴",
+      "category": "出行",
+      "tags": [
+        "共享经济",
+        "电动滑板车",
+        "出行",
+        "烧钱",
+        "单位经济学",
+        "Vanderbilt"
+      ],
+      "caseType": "failure",
+      "productType": "硬件服务",
+      "lossAmount": "约数十亿美元",
+      "marketPotentialScore": 3,
+      "potentialScale": 4,
+      "rebuildPotential": 2,
+      "profile": {
+        "companyName": "Bird Rides",
+        "location": "美国 圣莫尼卡",
+        "coreTech": "共享电动滑板车",
+        "totalFunding": "超过30亿美元",
+        "investors": "Sequoia, Accel, Index Ventures",
+        "vision": "用电动滑板车解决最后一公里出行",
+        "founded": "2017",
+        "closed": "2023年申请破产",
+        "cashBurned": "数十亿美元"
+      },
+      "failure": {
+        "fatalFlaw": "单位经济学差 + 硬件损耗快 + 竞争激烈 + 监管问题 + 季节性",
+        "marketBackground": "共享出行热潮，快速扩张时代",
+        "economicLogic": "补贴驱动增长，但滑板车寿命短，维修成本高",
+        "techLimitations": "硬件不够耐用，电池技术限制",
+        "scalability": "扩张快，但每单亏损",
+        "lessonsLearned": "1. 单位经济学至关重要\n2. 硬件损耗要考虑\n3. 监管不能忽视\n4. 增长不能靠补贴"
+      },
+      "assessment": {
+        "marketPotential": "最后一公里出行需求存在，但盈利难",
+        "difficultyAnalysis": "硬件损耗、监管、竞争三重挑战",
+        "scalabilityAnalysis": "可以扩张，但难以盈利"
+      },
+      "rebuild": {
+        "pivotConcept": "从扩张到盈利",
+        "insight": "出行需要盈利模式",
+        "productRefactor": "更耐用的硬件，更好的运营效率",
+        "wedge": "耐用性"
+      },
+      "execution": {
+        "techStack": "IoT, GPS, 移动应用",
+        "phase1": "MVP - 小规模测试",
+        "phase2": "验证 - 单位经济验证",
+        "phase3": "扩张 - 盈利后扩张",
+        "phase4": "护城河 - 运营效率"
+      },
+      "monetization": {
+        "revenueStreams": "骑行费用",
+        "profitAnalysis": "单位经济学差，难以盈利",
+        "exitLogic": "破产，被收购"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.485Z",
+      "updatedAt": "2026-03-26T00:10:16.485Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 42,
+      "title": "Vine视频 - 短视频先驱",
+      "logo": "🍇",
+      "category": "社交",
+      "tags": [
+        "短视频",
+        "Twitter",
+        "社交",
+        "先驱",
+        "创作者",
+        "被收购"
+      ],
+      "caseType": "failure",
+      "productType": "APP",
+      "lossAmount": "被Twitter收购后关闭",
+      "marketPotentialScore": 5,
+      "potentialScale": 5,
+      "rebuildPotential": 4,
+      "profile": {
+        "companyName": "Vine",
+        "location": "美国 纽约",
+        "coreTech": "6秒短视频循环",
+        "totalFunding": "被Twitter收购",
+        "investors": "Twitter",
+        "vision": "用6秒视频记录生活",
+        "founded": "2012",
+        "closed": "2017",
+        "cashBurned": ""
+      },
+      "failure": {
+        "fatalFlaw": "被收购后缺乏支持 + 竞争加剧（TikTok前身）+ 货币化困难 + 创作者流失",
+        "marketBackground": "移动视频兴起，Twitter寻求创新",
+        "economicLogic": "没有明确的盈利模式，被收购后资源不足",
+        "techLimitations": "6秒限制在后来成为劣势",
+        "scalability": "有网络效应，但被收购后发展受阻",
+        "lessonsLearned": "1. 收购后要持续支持\n2. 创作者是核心资产\n3. 要考虑货币化\n4. 大公司反应慢"
+      },
+      "assessment": {
+        "marketPotential": "短视频市场巨大，Vine是先驱",
+        "difficultyAnalysis": "被收购后战略问题",
+        "scalabilityAnalysis": "有网络效应，但未能发挥"
+      },
+      "rebuild": {
+        "pivotConcept": "从被收购到独立",
+        "insight": "短视频需要独立发展",
+        "productRefactor": "更长视频、创作者激励",
+        "wedge": "创作者"
+      },
+      "execution": {
+        "techStack": "iOS, Android, 视频处理",
+        "phase1": "MVP - 6秒视频",
+        "phase2": "验证 - 用户验证",
+        "phase3": "扩张 - 独立发展",
+        "phase4": "护城河 - 创作者生态"
+      },
+      "monetization": {
+        "revenueStreams": "广告、创作者分成",
+        "profitAnalysis": "未能有效货币化",
+        "exitLogic": "关闭，TikTok接手"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.485Z",
+      "updatedAt": "2026-03-26T00:10:16.485Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 43,
+      "title": "Peak健身 - 智能健身镜",
+      "logo": "🪞",
+      "category": "硬件",
+      "tags": [
+        "健身",
+        "硬件",
+        "订阅",
+        "Peloton竞品",
+        "家庭健身",
+        "疫情"
+      ],
+      "caseType": "failure",
+      "productType": "硬件",
+      "lossAmount": "约数千万美元",
+      "marketPotentialScore": 3,
+      "potentialScale": 3,
+      "rebuildPotential": 3,
+      "profile": {
+        "companyName": "Peak",
+        "location": "美国 纽约",
+        "coreTech": "智能健身镜",
+        "totalFunding": "约5000万美元",
+        "investors": "L Catterton, Insight Partners",
+        "vision": "把健身房搬回家",
+        "founded": "2018",
+        "closed": "2022",
+        "cashBurned": "约5000万美元"
+      },
+      "failure": {
+        "fatalFlaw": "硬件成本高 + 订阅留存低 + Peloton竞争 + 疫情后需求下降 + 单价过高",
+        "marketBackground": "疫情期间家庭健身热潮",
+        "economicLogic": "高硬件成本+低留存，单位经济学差",
+        "techLimitations": "镜子形态因子限制，使用场景有限",
+        "scalability": "硬件业务，扩张慢",
+        "lessonsLearned": "1. 硬件成本要控制\n2. 留存至关重要\n3. 疫情需求可能是暂时的\n4. 竞争要考虑"
+      },
+      "assessment": {
+        "marketPotential": "家庭健身市场存在，但竞争激烈",
+        "difficultyAnalysis": "硬件+订阅双重挑战",
+        "scalabilityAnalysis": "可以扩张，但需要好的单位经济"
+      },
+      "rebuild": {
+        "pivotConcept": "从硬件到内容",
+        "insight": "人们需要健身内容，不是智能镜子",
+        "productRefactor": "更便宜的硬件，或纯内容服务",
+        "wedge": "内容"
+      },
+      "execution": {
+        "techStack": "硬件、视频流、移动应用",
+        "phase1": "MVP - 低成本硬件",
+        "phase2": "验证 - 留存验证",
+        "phase3": "扩张 - 内容驱动",
+        "phase4": "护城河 - 内容库"
+      },
+      "monetization": {
+        "revenueStreams": "硬件销售 + 订阅",
+        "profitAnalysis": "硬件成本高，留存低",
+        "exitLogic": "倒闭"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.485Z",
+      "updatedAt": "2026-03-26T00:10:16.485Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 44,
+      "title": "HQ问答 - 直播问答",
+      "logo": "🎯",
+      "category": "娱乐",
+      "tags": [
+        "直播",
+        "问答",
+        "游戏化",
+        "病毒式",
+        "留存",
+        "广告"
+      ],
+      "caseType": "failure",
+      "productType": "APP",
+      "lossAmount": "约数千万美元",
+      "marketPotentialScore": 3,
+      "potentialScale": 4,
+      "rebuildPotential": 2,
+      "profile": {
+        "companyName": "HQ Trivia",
+        "location": "美国 纽约",
+        "coreTech": "直播问答游戏",
+        "totalFunding": "约1500万美元",
+        "investors": "Lightspeed Venture Partners",
+        "vision": "让手机变成游戏秀场",
+        "founded": "2017",
+        "closed": "2020",
+        "cashBurned": "约1500万美元"
+      },
+      "failure": {
+        "fatalFlaw": "留存困难 + 主持人问题 + 技术稳定性差 + 货币化困难 + 新鲜感消失",
+        "marketBackground": "移动游戏热潮，直播兴起",
+        "economicLogic": "广告收入不足以覆盖成本和奖金",
+        "techLimitations": "直播技术复杂，延迟问题",
+        "scalability": "初期病毒式增长，但难以持续",
+        "lessonsLearned": "1. 留存比增长重要\n2. 新鲜感会消失\n3. 技术稳定性关键\n4. 货币化要早期考虑"
+      },
+      "assessment": {
+        "marketPotential": "互动娱乐有需求，但留存难",
+        "difficultyAnalysis": "留存和货币化双重挑战",
+        "scalabilityAnalysis": "可以快速增长，但难以持续"
+      },
+      "rebuild": {
+        "pivotConcept": "从一次性到持续性",
+        "insight": "娱乐需要持续的理由",
+        "productRefactor": "更多游戏模式，社交功能",
+        "wedge": "社交"
+      },
+      "execution": {
+        "techStack": "直播技术、移动应用",
+        "phase1": "MVP - 简单问答",
+        "phase2": "验证 - 留存验证",
+        "phase3": "扩张 - 更多模式",
+        "phase4": "护城河 - 社交"
+      },
+      "monetization": {
+        "revenueStreams": "广告、赞助",
+        "profitAnalysis": "广告收入不足",
+        "exitLogic": "关闭"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.485Z",
+      "updatedAt": "2026-03-26T00:10:16.485Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 45,
+      "title": "Color照片 - 社交照片分享",
+      "logo": "🌈",
+      "category": "社交",
+      "tags": [
+        "社交",
+        "照片",
+        "地理位置",
+        "过度融资",
+        "Facebook时代",
+        "先驱"
+      ],
+      "caseType": "failure",
+      "productType": "APP",
+      "lossAmount": "约4100万美元",
+      "marketPotentialScore": 2,
+      "potentialScale": 3,
+      "rebuildPotential": 2,
+      "profile": {
+        "companyName": "Color Labs",
+        "location": "美国 帕洛阿尔托",
+        "coreTech": "基于地理位置的照片分享",
+        "totalFunding": "4100万美元",
+        "investors": "Sequoia Capital, Bain Capital",
+        "vision": "基于位置的社交照片分享",
+        "founded": "2010",
+        "closed": "2013",
+        "cashBurned": "约4100万美元"
+      },
+      "failure": {
+        "fatalFlaw": "产品概念模糊 + 用户体验差 + 过度融资 + 时机太早 + Facebook竞争",
+        "marketBackground": "移动社交兴起，照片分享需求",
+        "economicLogic": "烧钱快，没有清晰的增长路径",
+        "techLimitations": "概念过于超前，用户不理解",
+        "scalability": "没有找到PMF",
+        "lessonsLearned": "1. 产品要简单明确\n2. 融资不是目标\n3. 时机很重要\n4. 竞争要考虑"
+      },
+      "assessment": {
+        "marketPotential": "照片分享市场巨大，但概念超前",
+        "difficultyAnalysis": "产品市场匹配难",
+        "scalabilityAnalysis": "没有PMF，无法扩张"
+      },
+      "rebuild": {
+        "pivotConcept": "从复杂到简单",
+        "insight": "简单的产品更容易成功",
+        "productRefactor": "简化概念，专注核心功能",
+        "wedge": "简单"
+      },
+      "execution": {
+        "techStack": "iOS, Android, 地理位置",
+        "phase1": "MVP - 简单分享",
+        "phase2": "验证 - 用户验证",
+        "phase3": "扩张 - 逐步迭代",
+        "phase4": "护城河 - 网络效应"
+      },
+      "monetization": {
+        "revenueStreams": "广告",
+        "profitAnalysis": "没有有效营收",
+        "exitLogic": "资产出售"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.485Z",
+      "updatedAt": "2026-03-26T00:10:16.485Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 46,
+      "title": "Secret匿名 - 匿名社交",
+      "logo": "🤫",
+      "category": "社交",
+      "tags": [
+        "匿名",
+        "社交",
+        "隐私",
+        "网络暴力",
+        "YC",
+        "被封禁"
+      ],
+      "caseType": "failure",
+      "productType": "APP",
+      "lossAmount": "约3500万美元",
+      "marketPotentialScore": 2,
+      "potentialScale": 3,
+      "rebuildPotential": 1,
+      "profile": {
+        "companyName": "Secret",
+        "location": "美国 旧金山",
+        "coreTech": "匿名社交网络",
+        "totalFunding": "约3500万美元",
+        "investors": "Y Combinator, Index Ventures",
+        "vision": "让人们匿名分享真实想法",
+        "founded": "2013",
+        "closed": "2015",
+        "cashBurned": "约3500万美元"
+      },
+      "failure": {
+        "fatalFlaw": "网络暴力 + 内容 moderation 困难 + 法律风险 + 口碑恶化 + 被Apple下架",
+        "marketBackground": "匿名社交兴起，隐私关注",
+        "economicLogic": "没有有效货币化，同时风险极高",
+        "techLimitations": "匿名性和安全性天然矛盾",
+        "scalability": "可以增长，但风险太大",
+        "lessonsLearned": "1. 匿名有代价\n2. moderation很重要\n3. 法律风险要考虑\n4. 口碑很脆弱"
+      },
+      "assessment": {
+        "marketPotential": "匿名需求存在，但风险太大",
+        "difficultyAnalysis": "内容和法律风险极高",
+        "scalabilityAnalysis": "可以增长，但难以持续"
+      },
+      "rebuild": {
+        "pivotConcept": "从匿名到半匿名",
+        "insight": "完全匿名太危险",
+        "productRefactor": "增加moderation，限制完全匿名",
+        "wedge": "信任"
+      },
+      "execution": {
+        "techStack": "移动应用, moderation工具",
+        "phase1": "MVP - 半匿名",
+        "phase2": "验证 - moderation验证",
+        "phase3": "扩张 - 可控增长",
+        "phase4": "护城河 - 信任"
+      },
+      "monetization": {
+        "revenueStreams": "广告",
+        "profitAnalysis": "风险太大，难以持续",
+        "exitLogic": "关闭"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.485Z",
+      "updatedAt": "2026-03-26T00:10:16.485Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    },
+    {
+      "id": 47,
+      "title": "Jawbone穿戴 - 可穿戴设备先驱",
+      "logo": "⌚",
+      "category": "硬件",
+      "tags": [
+        "可穿戴",
+        "健身追踪",
+        "硬件",
+        "Fitbit竞争",
+        "供应链",
+        "先驱"
+      ],
+      "caseType": "failure",
+      "productType": "硬件",
+      "lossAmount": "约10亿美元",
+      "marketPotentialScore": 4,
+      "potentialScale": 4,
+      "rebuildPotential": 3,
+      "profile": {
+        "companyName": "Jawbone",
+        "location": "美国 旧金山",
+        "coreTech": "可穿戴健身追踪器",
+        "totalFunding": "约10亿美元",
+        "investors": "Andreessen Horowitz, Sequoia, Kleiner Perkins",
+        "vision": "让科技改善健康",
+        "founded": "1999",
+        "closed": "2017",
+        "cashBurned": "约10亿美元"
+      },
+      "failure": {
+        "fatalFlaw": "供应链问题 + 质量问题 + Fitbit竞争 + 产品迭代慢 + 资金链断裂",
+        "marketBackground": "可穿戴设备热潮，健康意识兴起",
+        "economicLogic": "硬件业务，成本控制困难，竞争激烈",
+        "techLimitations": "产品可靠性问题，迭代速度慢",
+        "scalability": "硬件业务，可以扩张但需要好的管理",
+        "lessonsLearned": "1. 供应链至关重要\n2. 质量是生命线\n3. 迭代要快速\n4. 资金管理重要"
+      },
+      "assessment": {
+        "marketPotential": "可穿戴市场巨大，是先驱",
+        "difficultyAnalysis": "硬件创业难度大，供应链复杂",
+        "scalabilityAnalysis": "硬件业务，可以扩张但难"
+      },
+      "rebuild": {
+        "pivotConcept": "从硬件到健康服务",
+        "insight": "健康数据比硬件更有价值",
+        "productRefactor": "专注软件和服务",
+        "wedge": "数据"
+      },
+      "execution": {
+        "techStack": "硬件设计, 移动应用, 数据分析",
+        "phase1": "MVP - 可靠硬件",
+        "phase2": "验证 - 质量验证",
+        "phase3": "扩张 - 软件和服务",
+        "phase4": "护城河 - 数据"
+      },
+      "monetization": {
+        "revenueStreams": "硬件销售, 服务订阅",
+        "profitAnalysis": "硬件成本高, 质量问题影响",
+        "exitLogic": "资产出售"
+      },
+      "authorId": 2,
+      "status": "published",
+      "createdAt": "2026-03-26T00:10:16.485Z",
+      "updatedAt": "2026-03-26T00:10:16.485Z",
+      "disclaimer": "本案例仅供学习参考，基于公开信息整理。"
+    }
+  ],
+  "caseDetails": [],
+  "auditLogs": [
+    {
+      "id": 1,
+      "userId": 1,
+      "action": "APPROVE_USER",
+      "entityType": "user",
+      "entityId": "2",
+      "details": "{\"body\":{},\"params\":{\"id\":\"2\"}}",
+      "ipAddress": "::1",
+      "createdAt": "2026-03-23T09:18:47.125Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "action": "APPROVE_CASE",
+      "entityType": "case",
+      "entityId": "5",
+      "details": "{\"body\":{\"reviewNotes\":\"案例内容完整，审核通过\"},\"params\":{\"id\":\"5\"}}",
+      "ipAddress": "::1",
+      "createdAt": "2026-03-23T10:36:01.408Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "action": "RETURN_CASE_TO_PENDING",
+      "entityType": "case",
+      "entityId": "27",
+      "details": "{\"body\":{\"reviewNotes\":\"管理员退回待审核\"},\"params\":{\"id\":\"27\"}}",
+      "ipAddress": "::1",
+      "createdAt": "2026-03-25T01:46:24.878Z"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "action": "RECOMMEND_CASE",
+      "entityType": "case",
+      "entityId": "1",
+      "details": "{\"body\":{},\"params\":{\"id\":\"1\"}}",
+      "ipAddress": "::1",
+      "createdAt": "2026-03-25T06:37:59.854Z"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "action": "RECOMMEND_CASE",
+      "entityType": "case",
+      "entityId": "2",
+      "details": "{\"body\":{},\"params\":{\"id\":\"2\"}}",
+      "ipAddress": "::1",
+      "createdAt": "2026-03-25T06:38:01.395Z"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "action": "RECOMMEND_CASE",
+      "entityType": "case",
+      "entityId": "3",
+      "details": "{\"body\":{},\"params\":{\"id\":\"3\"}}",
+      "ipAddress": "::1",
+      "createdAt": "2026-03-25T06:38:02.658Z"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "action": "RECOMMEND_CASE",
+      "entityType": "case",
+      "entityId": "4",
+      "details": "{\"body\":{},\"params\":{\"id\":\"4\"}}",
+      "ipAddress": "::1",
+      "createdAt": "2026-03-25T06:38:05.363Z"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "action": "RECOMMEND_CASE",
+      "entityType": "case",
+      "entityId": "1",
+      "details": "{\"body\":{},\"params\":{\"id\":\"1\"}}",
+      "ipAddress": "::1",
+      "createdAt": "2026-03-25T06:38:06.787Z"
+    }
+  ],
+  "tags": [
+    {
+      "id": 95,
+      "name": "SaaS",
+      "description": "",
+      "caseCount": 8,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 5,
+      "name": "短视频",
+      "description": "",
+      "caseCount": 4,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 44,
+      "name": "欺诈",
+      "description": "",
+      "caseCount": 4,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 45,
+      "name": "监管",
+      "description": "",
+      "caseCount": 4,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 113,
+      "name": "生产力",
+      "description": "",
+      "caseCount": 4,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 131,
+      "name": "社交",
+      "description": "",
+      "caseCount": 4,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 7,
+      "name": "共享经济",
+      "description": "",
+      "caseCount": 3,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 18,
+      "name": "游戏",
+      "description": "",
+      "caseCount": 3,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 41,
+      "name": "加密货币",
+      "description": "",
+      "caseCount": 3,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 42,
+      "name": "交易所",
+      "description": "",
+      "caseCount": 3,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 43,
+      "name": "破产",
+      "description": "",
+      "caseCount": 3,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 88,
+      "name": "疫情",
+      "description": "",
+      "caseCount": 3,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 97,
+      "name": "协作",
+      "description": "",
+      "caseCount": 3,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 128,
+      "name": "开发者工具",
+      "description": "",
+      "caseCount": 3,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 151,
+      "name": "硬件",
+      "description": "",
+      "caseCount": 3,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 167,
+      "name": "先驱",
+      "description": "",
+      "caseCount": 3,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 3,
+      "name": "创业成功",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 4,
+      "name": "流媒体",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 6,
+      "name": "创业失败",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 10,
+      "name": "共享办公",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 11,
+      "name": "IPO失败",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 30,
+      "name": "全球化",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 38,
+      "name": "硅谷",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 58,
+      "name": "性价比",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 77,
+      "name": "AI",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 79,
+      "name": "广告",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 84,
+      "name": "社区",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 102,
+      "name": "社交媒体",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 108,
+      "name": "直播",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 111,
+      "name": "FTT代币",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 116,
+      "name": "设计",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 126,
+      "name": "极简主义",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 137,
+      "name": "低代码",
+      "description": "",
+      "caseCount": 2,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 1,
+      "name": "支付",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 2,
+      "name": "FinTech",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 8,
+      "name": "住宿",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 9,
+      "name": "平台模式",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 12,
+      "name": "过度扩张",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 13,
+      "name": "垂直农业",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 14,
+      "name": "AI机器人",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 15,
+      "name": "食品科技",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 16,
+      "name": "单位经济失败",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 17,
+      "name": "社交网络",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 19,
+      "name": "微信",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 20,
+      "name": "QQ",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 21,
+      "name": "投资并购",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 22,
+      "name": "电子商务",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 23,
+      "name": "B2B",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 24,
+      "name": "淘宝",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 25,
+      "name": "支付宝",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 26,
+      "name": "跨境电商",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 27,
+      "name": "抖音",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 28,
+      "name": "TikTok",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 29,
+      "name": "算法推荐",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 31,
+      "name": "外卖",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 32,
+      "name": "团购",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 33,
+      "name": "到店",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 34,
+      "name": "酒旅",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 35,
+      "name": "即时配送",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 36,
+      "name": "医疗科技",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 37,
+      "name": "血液检测",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 39,
+      "name": "骗局",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 40,
+      "name": "SEC",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 46,
+      "name": "软银",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 47,
+      "name": "估值泡沫",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 48,
+      "name": "治理问题",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 49,
+      "name": "自营电商",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 50,
+      "name": "物流",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 51,
+      "name": "3C数码",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 52,
+      "name": "京东物流",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 53,
+      "name": "品质电商",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 54,
+      "name": "社交电商",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 55,
+      "name": "拼团",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 56,
+      "name": "下沉市场",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 57,
+      "name": "农业",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 59,
+      "name": "智能手机",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 60,
+      "name": "MIUI",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 61,
+      "name": "生态链",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 62,
+      "name": "IoT",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 63,
+      "name": "共享单车",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 64,
+      "name": "押金危机",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 65,
+      "name": "资金链断裂",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 66,
+      "name": "恶性竞争",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 67,
+      "name": "咖啡",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 68,
+      "name": "新零售",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 69,
+      "name": "财务造假",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 70,
+      "name": "退市",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 71,
+      "name": "重生",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 72,
+      "name": "邮箱",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 73,
+      "name": "网易云音乐",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 74,
+      "name": "教育",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 75,
+      "name": "电商",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 76,
+      "name": "搜索",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 78,
+      "name": "自动驾驶",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 80,
+      "name": "All in AI",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 81,
+      "name": "视频",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 82,
+      "name": "弹幕",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 83,
+      "name": "ACG",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 85,
+      "name": "UP主",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 86,
+      "name": "好莱坞",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 87,
+      "name": "付费",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 89,
+      "name": "房产",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 90,
+      "name": "中介",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 91,
+      "name": "链家",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 92,
+      "name": "真房源",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 93,
+      "name": "ACN",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 94,
+      "name": "云存储",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 96,
+      "name": "文件同步",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 98,
+      "name": "企业服务",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 99,
+      "name": "共享出行",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 100,
+      "name": "网约车",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 101,
+      "name": "UberPOOL",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 103,
+      "name": "微博",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 104,
+      "name": "信息分发",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 105,
+      "name": "马斯克",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 106,
+      "name": "收购",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 107,
+      "name": "语音社交",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 109,
+      "name": "音频",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 110,
+      "name": "昙花一现",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-25T08:02:18.753Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 112,
+      "name": "笔记",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 114,
+      "name": "远程办公",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 115,
+      "name": "文档管理",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 117,
+      "name": "UI/UX",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 118,
+      "name": "云端",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 119,
+      "name": "创意工具",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 120,
+      "name": "模板",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 121,
+      "name": "平面设计",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 122,
+      "name": "草根创业",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 123,
+      "name": "邮件",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 124,
+      "name": "键盘快捷键",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 125,
+      "name": "高端",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 127,
+      "name": "项目管理",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 129,
+      "name": "Jira替代",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 130,
+      "name": "productivity",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 132,
+      "name": "语音聊天",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 133,
+      "name": "Slack替代",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 134,
+      "name": "创作者经济",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 135,
+      "name": "数据库",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 136,
+      "name": "电子表格",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 138,
+      "name": "无代码",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 139,
+      "name": "内部工具",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 140,
+      "name": "企业软件",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 141,
+      "name": "快速开发",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 142,
+      "name": "部署",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 143,
+      "name": "前端",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 144,
+      "name": "Jamstack",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 145,
+      "name": "Next.js",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 146,
+      "name": "云服务",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 147,
+      "name": "写作辅助",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 148,
+      "name": "内容生成",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 149,
+      "name": "GPT",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 150,
+      "name": "知识管理",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 152,
+      "name": "物联网",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 153,
+      "name": "过度设计",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 154,
+      "name": "榨汁机",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 155,
+      "name": "Kickstarter",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 156,
+      "name": "智商税",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 157,
+      "name": "医疗",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 158,
+      "name": "血检",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 159,
+      "name": "独角兽",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 160,
+      "name": "女创业者",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 161,
+      "name": "电动滑板车",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 162,
+      "name": "出行",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 163,
+      "name": "烧钱",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 164,
+      "name": "单位经济学",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 165,
+      "name": "Vanderbilt",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 166,
+      "name": "Twitter",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 168,
+      "name": "创作者",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 169,
+      "name": "被收购",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 170,
+      "name": "健身",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 171,
+      "name": "订阅",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 172,
+      "name": "Peloton竞品",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 173,
+      "name": "家庭健身",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 174,
+      "name": "问答",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 175,
+      "name": "游戏化",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 176,
+      "name": "病毒式",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 177,
+      "name": "留存",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 178,
+      "name": "照片",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 179,
+      "name": "地理位置",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 180,
+      "name": "过度融资",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 181,
+      "name": "Facebook时代",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 182,
+      "name": "匿名",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 183,
+      "name": "隐私",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 184,
+      "name": "网络暴力",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 185,
+      "name": "YC",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 186,
+      "name": "被封禁",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 187,
+      "name": "可穿戴",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 188,
+      "name": "健身追踪",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 189,
+      "name": "Fitbit竞争",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    },
+    {
+      "id": 190,
+      "name": "供应链",
+      "description": "",
+      "caseCount": 1,
+      "createdAt": "2026-03-26T00:17:58.332Z",
+      "updatedAt": "2026-03-28T03:40:16.908Z"
+    }
+  ],
+  "comments": [],
+  "likes": [],
+  "nextUserId": 3,
+  "nextCaseId": 48,
+  "nextDetailId": 1,
+  "nextLogId": 9,
+  "nextTagId": 191,
+  "nextCommentId": 1,
+  "nextLikeId": 1
+}

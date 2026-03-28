@@ -2,8 +2,8 @@ import { useState } from 'react';
 
 const filterTabs = [
   { label: "✨ 最新收录", key: "newest" },
-  { label: "🔥 最烧钱", key: "burned" },
-  { label: "📅 死亡时间", key: "died" },
+  { label: "� 融资金额", key: "burned" },
+  { label: "📅 时间排序", key: "died" },
   { label: "📊 数据流", key: "data" },
 ];
 
@@ -20,16 +20,16 @@ export default function Hero({ onSearch, activeFilter, setActiveFilter }) {
       <div className="max-w-7xl mx-auto px-4 py-16 md:py-24">
         <div className="flex justify-center mb-6">
           <span className="tag bg-black text-white text-xs">
-            💀 已记录 1,600+ 家倒闭创业公司
+            � 已收录 1,600+ 个创业案例
           </span>
         </div>
 
         <h1 className="text-center font-black uppercase tracking-tighter leading-none mb-4" style={{ fontSize: 'clamp(2.5rem, 8vw, 6rem)', fontFamily: "'Space Mono', monospace" }}>
-          创业公司<br />坟场
+          创业案例<br />数据库
         </h1>
 
         <p className="text-center font-mono text-lg md:text-xl font-bold mb-2 max-w-2xl mx-auto">
-          超过 501亿美元 风险投资，化为灰烬，全部存档。
+          超过 501亿美元 融资案例，深入分析，全部存档。
         </p>
         <p className="text-center font-mono text-sm text-gray-700 mb-10">
           每周二、周五更新新案例。
@@ -37,10 +37,10 @@ export default function Hero({ onSearch, activeFilter, setActiveFilter }) {
 
         <div className="flex justify-center gap-4 md:gap-8 mb-10">
           {[
-            { val: "1,600+", label: "家公司" },
-            { val: "501亿+", label: "美元蒸发" },
-            { val: "22", label: "失败类别" },
-            { val: "1,600+", label: "重建方案" },
+            { val: "1,600+", label: "个案例" },
+            { val: "501亿+", label: "美元融资" },
+            { val: "22", label: "案例类别" },
+            { val: "1,600+", label: "优化方案" },
           ].map((s) => (
             <div key={s.label} className="text-center">
               <div className="font-black font-mono text-xl md:text-3xl leading-none">{s.val}</div>
@@ -55,7 +55,7 @@ export default function Hero({ onSearch, activeFilter, setActiveFilter }) {
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="搜索创业公司坟场..."
+              placeholder="搜索创业案例数据库..."
               className="brutal-input w-full px-6 py-4 text-base md:text-xl bg-white font-mono pr-16"
             />
             <button

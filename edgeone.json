@@ -1,0 +1,32 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "outputDirectory": "dist",
+  "nodeVersion": "18.20.4",
+  "headers": [
+    {
+      "source": "/*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=7200"
+        }
+      ]
+    },
+    {
+      "source": "/assets/*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=31536000"
+        }
+      ]
+    }
+  ],
+  "caches": [
+    {
+      "source": "/assets/*",
+      "cacheTtl": 31536000
+    }
+  ]
+}

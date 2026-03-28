@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const causeColors = {
   "没有市场需求": "bg-red-100 border-red-500",
   "单位经济失败": "bg-orange-100 border-orange-500",
@@ -41,10 +43,10 @@ const causeColors = {
   "产品造假": "bg-red-300 border-red-700",
 };
 
-function DifficultyBar({ value, label, color }) {
+function RatingBar({ value, label, color }) {
   return (
     <div className="flex items-center gap-2">
-      <span className="font-mono text-xs tracking-wide text-gray-500 w-14">{label}</span>
+      <span className="font-mono text-xs tracking-wide text-gray-500 w-16">{label}</span>
       <div className="flex gap-1">
         {[1, 2, 3, 4, 5].map((i) => (
           <div
@@ -57,70 +59,87 @@ function DifficultyBar({ value, label, color }) {
   );
 }
 
-export default function StartupCard({ startup, onClick }) {
+export default function StartupCard({ startup }) {
+  const hasCauses = startup.causes && Array.isArray(startup.causes) && startup.causes.length > 0;
+  const hasCategories = startup.categories && Array.isArray(startup.categories) && startup.categories.length > 0;
+  const isSuccessCase = startup.caseType === 'success';
+  
+  const displayAmount = isSuccessCase ? 
+    (startup.profitAmount || '见详情') : 
+    (startup.lossAmount || '见详情');
+  
   return (
-    <div
-      className="brutal-card p-5 cursor-pointer bg-white"
-      onClick={() => onClick && onClick(startup)}
-    >
-      <div className="flex items-start justify-between mb-3">
-        <div className="flex items-center gap-3">
-          <div className="text-3xl w-12 h-12 flex items-center justify-center border-2 border-black bg-[#ffeb3b] flex-shrink-0">
-            {startup.logo}
+    <Link to={`/startup/${startup.id}`} className="block">
+      <div className="brutal-card p-5 cursor-pointer bg-white hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+        <div className="flex items-start justify-between mb-3">
+          <div className="flex items-center gap-3">
+            <div className="text-3xl w-12 h-12 flex items-center justify-center border-2 border-black bg-[#ffeb3b] flex-shrink-0">
+              {startup.logo}
+            </div>
+            <div>
+              <h3 className="font-black text-lg font-mono uppercase leading-none text-black">{startup.name}</h3>
+              <div className="flex items-center gap-2 mt-1">
+                <span className="text-sm">{startup.country || '🇺🇸'}</span>
+                <span className="font-mono text-xs text-gray-500">
+                  {startup.founded ? `${startup.founded}${startup.died ? `–${startup.died}` : ''}` : ''}
+                </span>
+              </div>
+            </div>
           </div>
-          <div>
-            <h3 className="font-black text-lg font-mono uppercase leading-none">{startup.name}</h3>
-            <div className="flex items-center gap-2 mt-1">
-              <span className="text-sm">{startup.country}</span>
-              <span className="font-mono text-xs text-gray-500">{startup.founded}–{startup.died}</span>
+          <div className="text-right flex-shrink-0 ml-2">
+            <div className={`tag border-2 border-black text-xs font-bold ${isSuccessCase ? 'bg-[#d4edda] text-black' : 'bg-[#f8d7da] text-black'}`}>
+              {isSuccessCase ? '💰 盈利 ' : '💸 亏损 '}
+              {displayAmount}
             </div>
           </div>
         </div>
-        <div className="text-right flex-shrink-0 ml-2">
-          <div className="tag bg-[#ff3b3b] text-white border-black text-xs">
-            💸 {startup.capital}
+
+        <p className="text-sm text-gray-700 mb-4 leading-relaxed font-sans">
+          {startup.description}
+        </p>
+
+        <div className="grid grid-cols-2 gap-3 mb-4">
+          <div className="bg-gray-50 border-2 border-black p-2">
+            <div className="font-mono text-xs text-gray-500 uppercase">融资金额</div>
+            <div className="font-black font-mono text-sm text-black">{startup.capital || 'N/A'}</div>
+          </div>
+          <div className="bg-gray-50 border-2 border-black p-2">
+            <div className="font-mono text-xs text-gray-500 uppercase">案例类型</div>
+            <div className="font-black font-mono text-sm text-black">{isSuccessCase ? '成功案例' : '失败案例'}</div>
           </div>
         </div>
-      </div>
 
-      <p className="text-sm text-gray-700 mb-4 leading-relaxed font-sans">
-        {startup.description}
-      </p>
-
-      <div className="grid grid-cols-2 gap-3 mb-4">
-        <div className="bg-gray-50 border-2 border-black p-2">
-          <div className="font-mono text-xs text-gray-500 uppercase">已烧金额</div>
-          <div className="font-black font-mono text-sm">{startup.capital}</div>
+        <div className="space-y-2 mb-4">
+          <RatingBar value={startup.marketPotentialScore || 3} label="市场潜力" color="bg-[#ffeb3b]" />
+          <RatingBar value={startup.potentialScale || 3} label="潜在规模" color="bg-[#00b4d8]" />
+          {!isSuccessCase && startup.rebuildPotential > 0 && (
+            <RatingBar value={startup.rebuildPotential} label="重建潜力" color="bg-[#2ecc71]" />
+          )}
         </div>
-        <div className="bg-gray-50 border-2 border-black p-2">
-          <div className="font-mono text-xs text-gray-500 uppercase">存活时长</div>
-          <div className="font-black font-mono text-sm">{startup.lifespan}</div>
-        </div>
-      </div>
 
-      <div className="space-y-2 mb-4">
-        <DifficultyBar value={startup.difficulty} label="难度" color="bg-black" />
-        <DifficultyBar value={startup.scalability} label="扩展性" color="bg-[#ffeb3b]" />
-      </div>
+        {hasCauses && (
+          <div className="flex flex-wrap gap-1 mb-3">
+            {startup.causes.map((cause) => (
+              <span
+                key={cause}
+                className={`tag text-xs border-2 text-black ${causeColors[cause] || 'bg-gray-100 border-gray-400'}`}
+              >
+                {cause}
+              </span>
+            ))}
+          </div>
+        )}
 
-      <div className="flex flex-wrap gap-1 mb-3">
-        {startup.causes.map((cause) => (
-          <span
-            key={cause}
-            className={`tag text-xs border-2 ${causeColors[cause] || 'bg-gray-100 border-gray-400'}`}
-          >
-            {cause}
-          </span>
-        ))}
+        {hasCategories && (
+          <div className="flex flex-wrap gap-1">
+            {startup.categories.map((cat) => (
+              <span key={cat} className="tag bg-white text-black border-2 border-black text-xs">
+                {cat}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
-
-      <div className="flex flex-wrap gap-1">
-        {startup.categories.map((cat) => (
-          <span key={cat} className="tag bg-white text-xs">
-            {cat}
-          </span>
-        ))}
-      </div>
-    </div>
+    </Link>
   );
 }

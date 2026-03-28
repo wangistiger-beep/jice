@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+  "framework": {
+    "name": "loot-drop",
+    "plugins": {
+      "client": {
+        "use": "@cloudbase/framework-plugin-website",
+        "inputs": {
+          "buildCommand": "npm run build",
+          "outputPath": "dist",
+          "cloudPath": "/",
+          "installCommand": "npm ci",
+          "ignore": [
+            "node_modules",
+            "backend",
+            "scraper",
+            "archive",
+            "*.md"
+          ]
+        }
+      }
+    }
+  }
+}

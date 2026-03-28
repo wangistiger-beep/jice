@@ -38,12 +38,12 @@ export default function RebuildPlans() {
     <section className="border-t-4 border-black bg-white">
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="text-center mb-12">
-          <span className="tag bg-black text-white text-xs mb-4 inline-block">🔨 重建方案</span>
+          <span className="tag bg-black text-white text-xs mb-4 inline-block">🔨 优化方案</span>
           <h2 className="font-black font-mono text-3xl md:text-4xl uppercase mb-4">
-            1,600+ 可落地商业方案
+            1,600+ 可落地优化方案
           </h2>
           <p className="font-mono text-gray-600 max-w-2xl mx-auto text-sm">
-            每一个失败案例都变成一份蓝图。AI 生成的重建方案，包含市场分析、技术栈建议与盈利模型。
+            每一个案例都变成一份优化蓝图。AI 生成的优化方案，包含市场分析、技术栈建议与盈利模型。
           </p>
         </div>
 
@@ -101,7 +101,7 @@ export default function RebuildPlans() {
               </div>
 
               <button className="brutal-btn bg-[#ffeb3b] w-full py-2 font-mono uppercase text-xs">
-                查看重建方案 →
+                查看优化方案 →
               </button>
             </div>
           ))}
@@ -109,7 +109,7 @@ export default function RebuildPlans() {
 
         <div className="text-center">
           <button className="brutal-btn bg-black text-white px-10 py-4 font-mono uppercase">
-            浏览全部 1,600+ 重建方案 →
+            浏览全部 1,600+ 优化方案 →
           </button>
         </div>
       </div>

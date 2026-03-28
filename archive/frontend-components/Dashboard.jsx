@@ -1,4 +1,4 @@
-import { startups } from '../data/startups';
+
 
 const categoryData = [
   { name: "没有市场需求", count: 42, color: "#ff3b3b" },
